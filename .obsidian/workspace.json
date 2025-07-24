@@ -1,0 +1,219 @@
+{
+  "main": {
+    "id": "4dc669b516ac06a5",
+    "type": "split",
+    "children": [
+      {
+        "id": "c3ceac8d5dcf25b3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "95b193f2fa41aa63",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Services/Amazon Rekognition.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Amazon Rekognition"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "70bb2adb60c7dcca",
+    "type": "split",
+    "children": [
+      {
+        "id": "d9b44312038c47a0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "dd1d401fc37c406b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "6c9ceaecdfba3dc2",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "f9aaa81e8c830049",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 398.5
+  },
+  "right": {
+    "id": "f1ce1696922abeed",
+    "type": "split",
+    "children": [
+      {
+        "id": "d146a5b828b1c9ee",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8154e8f9d73158f6",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Services/Amazon Rekognition.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Amazon Rekognition"
+            }
+          },
+          {
+            "id": "afad16071f93d136",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Concepts/Costs.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Costs"
+            }
+          },
+          {
+            "id": "2846c58e3c89419c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "b228194951814a46",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Services/Amazon Rekognition.md",
+                "followCursor": false,
+                "showSearch": true,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Amazon Rekognition"
+            }
+          }
+        ],
+        "currentTab": 3
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "dd1d401fc37c406b",
+  "lastOpenFiles": [
+    "Services/ECS - Amazon Elastic Container Service -  Fargate launch type.md",
+    "Images/Pasted image 20250717095617.png",
+    "Services/Amazon Rekognition.md",
+    "Services/Security and Compliance/AWS Systems Manager Session Manager.md",
+    "Services/Untitled",
+    "Concepts/Cloud Computing Models.md",
+    "Concepts/AWS Well-Architected Framework.md",
+    "Concepts/AWS CloudTrail.md",
+    "Concepts/AWS Cloud Adoption Framework (AWS CAF).md",
+    "Concepts/Suport.md",
+    "Questions/Organization is planning.md",
+    "Images/Pasted image 20250717094159.png",
+    "Images/Pasted image 20250717093431.png",
+    "Images/Pasted image 20250717082556.png",
+    "Images/Pasted image 20250717080452.png",
+    "Images/Pasted image 20250717074814.png",
+    "Images/Pasted image 20250716153302.png",
+    "Images/Pasted image 20250716151955.png",
+    "Images/Pasted image 20250716150903.png",
+    "Images/Pasted image 20250716150508.png",
+    "Concepts/Services support VPC Gateway.md",
+    "Concepts/Six Advantages.md",
+    "Concepts/Shared Responsibility.md",
+    "Concepts/Region & Availability Zone.md",
+    "Concepts/Migration strategy.md",
+    "Concepts/Costs.md",
+    "Concepts/APN Partner Network.md",
+    "Services/Amazon EMR.md",
+    "Services/Serverless/Amazon Eventbridge.md",
+    "Services/Technology/Database/Amazon Athena.md",
+    "Services/Security and Compliance/Amazon Inspector.md",
+    "Services/Technology/VPC -.md",
+    "Services/ELB - Elastic Load Balancing.md",
+    "Services/ECR - Amazon Elastic Container Registry.md",
+    "Services/EC2.md",
+    "Services/DynamoDb.md",
+    "Services/Serverless",
+    "Services/Language",
+    "Services/Technology/Database/NoSQL",
+    "Services/Technology/Database",
+    "Services/Technology/Storage/Untitled",
+    "Services/Security and Compliance",
+    "Services/Technology/Message",
+    "Services/Technology/Storage",
+    "Services/Technology"
+  ]
+}

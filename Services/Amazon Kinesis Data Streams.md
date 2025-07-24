@@ -1,0 +1,1 @@
+Amazon Kinesis Data Streams enables you to build custom applications that process or analyze streaming data for specialized needs.
