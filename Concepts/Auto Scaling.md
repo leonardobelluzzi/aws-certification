@@ -1,0 +1,7 @@
+**Auto Scaling group scales out and adds more number of Amazon EC2 instances to match an increase in demand**
+
+**Auto Scaling group scales in and reduces the number of Amazon EC2 instances to match a decrease in demand**
+
+AWS Auto Scaling monitors your applications and automatically adjusts the capacity to maintain steady, predictable performance at the lowest possible cost. Using AWS Auto Scaling, it's easy to setup application scaling for multiple resources across multiple services in minutes. The service provides a simple, powerful user interface that lets you build scaling plans for resources including [Amazon EC2](../Services/EC2.md) instances and Spot Fleets, [Amazon ECS](../Services/ECS%20-%20Amazon%20Elastic%20Container%20Service%20-%20%20Fargate%20launch%20type.md) tasks, [Amazon DynamoDB](../Services/DynamoDb.md) tables and indexes, and Amazon Aurora Replicas.
+
+You can use scaling policies to increase or decrease the number of instances in your group dynamically to meet changing conditions. When the scaling policy is in effect, the Auto Scaling group adjusts the desired capacity of the group, between the minimum and maximum capacity values that you specify, and launches or terminates the instances as needed. You can also scale on a schedule.

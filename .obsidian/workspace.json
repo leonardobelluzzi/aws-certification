@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "c3ceac8d5dcf25b3",
+        "id": "cfd891a0a7d0835d",
         "type": "tabs",
         "children": [
           {
-            "id": "95b193f2fa41aa63",
+            "id": "e63ecb6361137f3c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Services/Amazon Rekognition.md",
+                "file": "SUMARIO.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Amazon Rekognition"
+              "title": "SUMARIO"
             }
           }
         ]
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Responsibility",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -142,13 +142,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Services/Amazon Rekognition.md",
+                "file": "Services/Technology/Database/Amazon Athena.md",
                 "followCursor": false,
                 "showSearch": true,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of Amazon Rekognition"
+              "title": "Outline of Amazon Athena"
             }
           }
         ],
@@ -156,10 +156,12 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "bases:Create new base": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -168,52 +170,56 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dd1d401fc37c406b",
+  "active": "e63ecb6361137f3c",
   "lastOpenFiles": [
-    "Services/ECS - Amazon Elastic Container Service -  Fargate launch type.md",
-    "Images/Pasted image 20250717095617.png",
-    "Services/Amazon Rekognition.md",
-    "Services/Security and Compliance/AWS Systems Manager Session Manager.md",
-    "Services/Untitled",
+    "Services/Amazon Route  53.md",
+    "SUMARIO.md",
+    "README.md",
+    "Concepts/Auto Scaling.md",
+    "Untitled.canvas",
+    "Daily Notes/2025-12-26.md",
+    "Daily Notes/2025-09-02.md",
+    "Concepts/Untitled.canvas",
+    "Pasted image 20251006080616.png",
+    "Images/Pasted image 20251006080616.png",
+    "Images/Pasted image 20251003143012.png",
+    "Images/Pasted image 20251001084510.png",
+    "Pasted image 20251003143012.png",
+    "Pasted image 20251001084510.png",
+    "Drafts/Untitled.canvas",
+    "Drafts/Untitled.base",
+    "Drafts/Untitled 2.base",
+    "Drafts/Untitled 1.base",
+    "Drafts/Untitled 1.md",
+    "Drafts/Untitled.md",
+    "Tests/Tests results.md",
+    "Marketplace/AWS Marketplace.md",
+    "Security & Compliance/Penetration Testing.md",
+    "Billing & Cost Management/AWS Billing.md",
+    "Management & Governance/AWS Health Dashboard.md",
+    "Management & Governance/AWS Config.md",
+    "Management & Governance/AWS CloudFormation.md",
+    "Developer Tools/AWS Device Farm.md",
+    "Developer Tools/CodeDeploy.md",
+    "Developer Tools/AWS CodePipeline.md",
+    "Search & Analytics/Amazon Kendra.md",
+    "Database/AWS Database Migration Service.md",
+    "Storage/AWS Snowball.md",
+    "Storage/Amazon Machine Image.md",
+    "Networking/Amazon S3 Transfer Acceleration (S3TA).md",
+    "Networking/VPC peering connection.md",
+    "Drafts",
+    "Tests",
+    "Daily Notes",
+    "Marketplace",
+    "Security & Compliance",
+    "Billing & Cost Management",
+    "Management & Governance",
     "Concepts/Cloud Computing Models.md",
-    "Concepts/AWS Well-Architected Framework.md",
-    "Concepts/AWS CloudTrail.md",
-    "Concepts/AWS Cloud Adoption Framework (AWS CAF).md",
-    "Concepts/Suport.md",
-    "Questions/Organization is planning.md",
-    "Images/Pasted image 20250717094159.png",
-    "Images/Pasted image 20250717093431.png",
-    "Images/Pasted image 20250717082556.png",
-    "Images/Pasted image 20250717080452.png",
-    "Images/Pasted image 20250717074814.png",
-    "Images/Pasted image 20250716153302.png",
-    "Images/Pasted image 20250716151955.png",
-    "Images/Pasted image 20250716150903.png",
-    "Images/Pasted image 20250716150508.png",
-    "Concepts/Services support VPC Gateway.md",
-    "Concepts/Six Advantages.md",
-    "Concepts/Shared Responsibility.md",
-    "Concepts/Region & Availability Zone.md",
-    "Concepts/Migration strategy.md",
-    "Concepts/Costs.md",
-    "Concepts/APN Partner Network.md",
-    "Services/Amazon EMR.md",
-    "Services/Serverless/Amazon Eventbridge.md",
-    "Services/Technology/Database/Amazon Athena.md",
-    "Services/Security and Compliance/Amazon Inspector.md",
-    "Services/Technology/VPC -.md",
-    "Services/ELB - Elastic Load Balancing.md",
-    "Services/ECR - Amazon Elastic Container Registry.md",
     "Services/EC2.md",
-    "Services/DynamoDb.md",
-    "Services/Serverless",
-    "Services/Language",
-    "Services/Technology/Database/NoSQL",
-    "Services/Technology/Database",
-    "Services/Technology/Storage/Untitled",
-    "Services/Security and Compliance",
-    "Services/Technology/Message",
-    "Services/Technology/Storage",
-    "Services/Technology"
+    "Images/Pasted image 20250718083348.png",
+    "Images/Pasted image 20250930202215.png",
+    "Images/Pasted image 20250930200558.png",
+    "Images/Pasted image 20250930200224.png"
   ]
 }

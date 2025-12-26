@@ -2,3 +2,6 @@ AWS Fargate is a serverless compute engine for containers. It works with both Am
 
 ![[Pasted image 20250716080717.png]]
 
+
+
+AWS Fargate is a purpose-built serverless compute engine for containers. Fargate scales and manages the infrastructure required to run your containers.
