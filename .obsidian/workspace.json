@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "261f8e9363e02ae7",
+        "id": "f3c29b1739995f7c",
         "type": "tabs",
         "children": [
           {
-            "id": "bc1c3e7b5e60ec05",
+            "id": "bbc1c6dab7d72901",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Management & Governance/AWS CloudFormation.md",
+                "file": "Services/Compute/EC2.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "AWS CloudFormation"
+              "title": "EC2"
             }
           }
         ]
@@ -78,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 398.5
+    "width": 200
   },
   "right": {
     "id": "f1ce1696922abeed",
@@ -170,38 +170,41 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bc1c3e7b5e60ec05",
+  "active": "bbc1c6dab7d72901",
   "lastOpenFiles": [
+    "Services/Networking/Amazon CloudFront.md",
+    "Services/Networking/AWS Transit Gateway.md",
+    "Services/Networking/AWS Direct Connect.md",
+    "Services/Storage/S3.md",
+    "Services/Security and Compliance/AWS Systems Manager.md",
+    "Pasted image 20260108112849.png",
+    "Untitled 3.base",
+    "Untitled 4.base",
+    "Services/Compute/ELB - Elastic Load Balancing.md",
+    "Services/Compute/EC2.md",
+    "Disaster recovery (DR).md",
+    "Developer Tools/CodeDeploy.md",
+    "Services/Billing and Pricing/AWS Organization.md",
+    "Services/Management and Governance/AWS Trusted Advisor.md",
+    "Services/Networking/Amazon VPC - Virtual Private Cloud.md",
+    "Networking/VPC peering connection.md",
+    "Management & Governance/AWS CloudFormation.md",
     "Developer Tools/AWS Device Farm.md",
     "Networking/AWS Local Zones.md",
     "Services/Management and Governance/CloudWatch.md",
-    "Services/Compute/EC2.md",
     "Services/Security and Compliance/Encrypting.md",
-    "Services/Storage/S3.md",
     "Services/Networking/AWS Global Accelerator.md",
     "MFA -Multi-Factor Authentication.md",
     "Untitled 2.base",
-    "Services/Networking/Amazon VPC - Virtual Private Cloud.md",
     "Concepts/Costs.md",
     "Security & Compliance/AWS CloudHSM.md",
     "Pasted image 20251229164641.png",
     "Untitled 1.base",
-    "Networking/VPC peering connection.md",
     "Credentials Report.md",
     "Services/Security and Compliance/AWS Web Application Firewall (WAF).md",
-    "Services/Management and Governance/AWS Trusted Advisor.md",
     "Management & Governance/AWS Support.md",
     "Billing & Cost Management/AWS Billing.md",
-    "Services/Database/RDS.md",
-    "Services/Security and Compliance/(IAM) AWS Identity and Access Management.md",
-    "Services/Database/Amazon DynamoDB.md",
-    "Errors TEMP 2.md",
-    "Services/Storage/EFS - Elastic File System.md",
-    "Technology/Storage/EFS - Elastic File System.md",
-    "Concepts/Region & Availability Zone.md",
-    "Amazon GuardDuty.md",
     "Pasted image 20260107113241.png",
-    "Services/Compute/ECS - Amazon Elastic Container Service -  Fargate launch type.md",
     "Untitled.base",
     "Pasted image 20260106141159.png",
     "Pasted image 20260106140604.png",
@@ -214,12 +217,9 @@
     "Images/Pasted image 20251226134915.png",
     "Images/Pasted image 20251226115152.png",
     "Services/AI and ML",
-    "Services/Messaging",
-    "Services/Storage",
     "Untitled.canvas",
     "Concepts/Untitled.canvas",
     "Pasted image 20251006080616.png",
-    "Images/Pasted image 20251006080616.png",
     "Drafts/Untitled.canvas"
   ]
 }

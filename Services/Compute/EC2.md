@@ -183,3 +183,24 @@ Use Spot Instances for ad-hoc jobs that can be interrupted
 Which entity ensures that your application on Amazon Elastic Compute Cloud (Amazon EC2) always has the right amount of capacity to handle the current traffic demand?
 
 Amazon EC2 Auto Scaling
+
+
+## USE CASE
+
+AWS Organizations provides which of the following benefits? (Select two)
+
+Volume discounts for Amazon EC2 and Amazon S3 aggregated across the member AWS accounts
+Share the reserved Amazon EC2 instances amongst the member AWS accounts
+
+## USE CASE
+
+Amazon Elastic Compute Cloud (Amazon EC2) Spot instances are a best-fit for which of the following scenarios?
+
+To run any containerized workload with Amazon Elastic Container Service (Amazon ECS) that can be interrupted
+
+## USE CASE
+
+AWS Shield Advanced provides expanded DDoS attack protection for web applications running on which of the following resources? (Select two)
+
+Amazon Elastic Compute Cloud (Amazon EC2)
+Amazon CloudFront

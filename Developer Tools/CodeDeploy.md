@@ -5,3 +5,11 @@ AWS CodeDeploy is a service that automates code deployments to any instance, inc
 Which AWS service can be used to automate code deployment to Amazon Elastic Compute Cloud (Amazon EC2) instances as well as on-premises instances?
 
 AWS CodeDeploy
+
+## USE CASE
+
+Which AWS service will help you deploy application code automatically to an Amazon Elastic Compute Cloud (Amazon EC2) instance?
+
+AWS CodeDeploy
+
+

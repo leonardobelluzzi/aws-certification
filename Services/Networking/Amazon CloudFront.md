@@ -15,3 +15,10 @@ Which of the following AWS services can be used to prevent Distributed Denial-of
 A company has a static website hosted on an Amazon Simple Storage Service (Amazon S3) bucket in an AWS Region in Asia. Although most of its users are in Asia, now it wants to drive growth globally. How can it improve the global performance of its static website?
 
 Use Amazon CloudFront to improve the performance of your website
+
+## USE CASE
+
+AWS Shield Advanced provides expanded DDoS attack protection for web applications running on which of the following resources? (Select two)
+
+Amazon Elastic Compute Cloud (Amazon EC2)
+Amazon CloudFront

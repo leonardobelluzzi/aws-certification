@@ -271,3 +271,10 @@ Virtual private Cloud (VPC)
 Which AWS entity enables you to privately connect your Amazon Virtual Private Cloud (Amazon VPC) to an Amazon Simple Queue Service (Amazon SQS) queue?
 
 VPC Interface Endpoint
+
+## USE CASE
+
+Which of the following entities are part of an Amazon Virtual Private Cloud (Amazon VPC) in the AWS Cloud? (Select two)
+
+Internet Gateway
+Subnet

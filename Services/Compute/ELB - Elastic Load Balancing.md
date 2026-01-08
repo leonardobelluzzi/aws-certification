@@ -6,3 +6,10 @@ Elastic Load Balancing (ELB) is used to automatically distribute your incoming a
 Which of the following AWS services should be used to automatically distribute incoming traffic across multiple targets?
 
 AWS Elastic Load Balancing (ELB)
+
+
+## USE CASE
+
+Which of the following is best-suited for load-balancing HTTP and HTTPS traffic?
+
+Application Load Balancer

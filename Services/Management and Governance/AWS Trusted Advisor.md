@@ -38,3 +38,9 @@ AWS Trusted Advisor can provide alerts on which of the following common security
 
 When you don't turn on user activity logging (AWS CloudTrail)
 When you allow public access to Amazon S3 buckets
+
+## USE CASE
+
+Which AWS service can help you analyze your infrastructure to identify unattached or underutilized Amazon EBS Elastic Volumes?
+
+AWS Trusted Advisor

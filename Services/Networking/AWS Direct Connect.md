@@ -16,3 +16,10 @@ Which of the following solutions can you use to connect your on-premises network
 
 AWS Virtual Private Network (VPN)
 AWS Direct Connect
+
+## USE CASE
+
+A multi-national organization has a separate virtual private cloud (VPC) for each of its business units on the AWS Cloud. The organization also wants to connect its on-premises data center with the different virtual private clouds (VPC) for better organization-wide collaboration. Which AWS services can be combined to build the MOST efficient solution for this use-case? (Select two)
+
+AWS Transit Gateway
+AWS Direct Connect

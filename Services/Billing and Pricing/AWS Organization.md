@@ -19,3 +19,10 @@ The AWS account must be able to operate as a standalone account. Only then it ca
 A retail company has multiple AWS accounts for each of its departments. Which of the following AWS services can be used to set up consolidated billing and a single payment method for these AWS accounts?
 
 AWS Organizations
+
+## USE CASE
+
+AWS Organizations provides which of the following benefits? (Select two)
+
+Volume discounts for Amazon EC2 and Amazon S3 aggregated across the member AWS accounts
+Share the reserved Amazon EC2 instances amongst the member AWS accounts
