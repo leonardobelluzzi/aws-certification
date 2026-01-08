@@ -30,3 +30,34 @@ Each statement includes information about a single permission. The information i
     5. Resource (Required in only some circumstances) – If you create an IAM permissions policy, you must specify a list of resources to which the actions apply. If you create a resource-based policy, this element is optional. If you do not include this element, then the resource to which the action applies is the resource to which the policy is attached.
         
     6. Condition (Optional) – Specify the circumstances under which the policy grants permission.
+
+
+## USE CASE
+
+Which of the following AWS services are always free to use (Select two)?
+
+AWS Auto Scaling
+AWS Identity and Access Management (AWS IAM)
+
+## USE CASE
+
+Which of the following AWS services is essential for implementing security of resources in AWS Cloud?
+
+AWS Identity and Access Management (IAM)
+
+## USE CASE
+
+Which of the following are recommended best practices for AWS Identity and Access Management (AWS IAM) service? (Select two)
+
+Enable multi-factor authentication (MFA) for all users
+Rotate credentials regularly
+
+## USE CASE 
+
+AWS Identity and Access Management (AWS IAM) policies are written as JSON documents. Which of the following are mandatory elements of an IAM policy?
+
+Effect, Action
+
+Which of the following entities should be used for an Amazon Elastic Compute Cloud (Amazon EC2) Instance to access a DynamoDB table?
+
+IAM role

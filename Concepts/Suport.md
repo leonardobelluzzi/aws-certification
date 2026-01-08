@@ -16,3 +16,10 @@ You should use the AWS Developer Support plan if you are testing or doing early 
 ### AWS Enterprise Support
 
 You should use the AWS Enterprise Support plan to provide customers with concierge-like service where the main focus is helping the customer achieve their outcomes and find success in the cloud. With AWS Enterprise Support plan, you get 24x7 technical support from high-quality engineers, tools and technology to automatically manage the health of your environment, consultative architectural guidance delivered in the context of your applications and use-cases, and a designated Technical Account Manager (TAM) to coordinate access to proactive/preventative programs and AWS subject matter experts. AWS Enterprise Support plan provides 24x7 phone, email and chat access to technical support however it's costlier than the AWS Business Support plan.
+
+
+## USE CASE
+
+Which AWS support plan provides access to a designated Technical Account Manager (TAM)?
+
+AWS Enterprise Support

@@ -20,4 +20,24 @@ A hybrid deployment is a way to connect your on-premises infrastructure to the c
 
 Overview of Cloud Computing Deployment Models: 
 
-![](https://assets-pt.media.datacumulus.com/aws-clf-pt/assets/pt2-q19-i1.jpg)
+
+
+**Elasticity** - Instead, you provision the number of resources that you need. You can scale these resources up or down instantly to grow and shrink capacity as your business needs change.
+
+**Reliability** - Refers to the ability of a system to recover from infrastructure or service disruptions, by dynamically acquiring computing resources to meet demand, and mitigate disruptions.
+
+**Durability** - Refers to the ability of a system to assure data is stored and data remains consistently on the system as long as it is not changed by legitimate access, i.e. data should not get corrupt or disappear from the cloud because of a system malfunction.
+
+**Resiliency** - Describes the ability of a system to recover from a failure induced by the load (data or network), attacks, and failures (hardware, software, or network failures).
+
+## USE CASE
+
+Which characteristic of Cloud Computing imparts the ability to acquire resources as you need and release when you no longer need them?
+
+Elasticity
+
+## USE CASE
+
+Which policy describes prohibited uses of the web services offered by Amazon Web Services?
+
+AWS Acceptable Use Policy

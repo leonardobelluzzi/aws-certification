@@ -7,3 +7,11 @@ How AWS Device Farm works: 
 ![](https://assets-pt.media.datacumulus.com/aws-clf-pt/assets/pt4-q63-i2.jpg)
 
  via - [https://aws.amazon.com/device-farm/](https://aws.amazon.com/device-farm/)
+
+## USE CASE
+
+The QA team at a company wants a tool/service that can provide access to different mobile devices with variations in firmware and Operating System versions.
+
+Which AWS service can address this use case?
+
+AWS Device Farm

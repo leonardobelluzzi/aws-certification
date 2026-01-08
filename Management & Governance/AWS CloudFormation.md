@@ -5,3 +5,9 @@ AWS CloudFormation StackSets extends the functionality of stacks by enabling you
 How CloudFormation Works: 
 
 ![](https://d1.awsstatic.com/Products/product-name/diagrams/product-page-diagram_CloudFormation.ad3a4c93b4fdd3366da3da0de4fb084d89a5d761.png)
+
+## USE CASE
+
+Which AWS service will you use to provision the same AWS infrastructure across multiple AWS accounts and regions?
+
+AWS CloudFormation

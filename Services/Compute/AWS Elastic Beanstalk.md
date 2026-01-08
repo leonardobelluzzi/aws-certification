@@ -1,0 +1,13 @@
+AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and IIS. Simply upload your code and AWS Elastic Beanstalk automatically handles the deployment, from capacity provisioning, [load balancing](ELB%20-%20Elastic%20Load%20Balancing.md), [auto-scaling](../Concepts/Auto%20Scaling.md) to application health monitoring.
+
+AWS Elastic Beanstalk is an easy-to-use service for deploying and scaling web applications and services developed with Java, .NET, PHP, Node.js, Python, Ruby, Go, and Docker on familiar servers such as Apache, Nginx, Passenger, and IIS. Simply upload your code and AWS Elastic Beanstalk automatically handles the deployment, from capacity provisioning, [load balancing](ELB%20-%20Elastic%20Load%20Balancing.md), [auto-scaling](../Concepts/Auto%20Scaling.md) to application health monitoring.
+
+![[Pasted image 20250716082208.png]]
+
+
+## USE CASE
+
+A developer has written a simple web application in PHP and he wants to just upload his code to AWS Cloud and have AWS handle the deployment automatically but still wants access to the underlying operating system for further enhancements. As a Cloud Practioner, which of the following AWS services would you recommend for this use-case?
+
+AWS Elastic Beanstalk
+

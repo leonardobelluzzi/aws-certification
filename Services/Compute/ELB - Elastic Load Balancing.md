@@ -1,0 +1,8 @@
+Elastic Load Balancing (ELB) is used to automatically distribute your incoming application traffic across all the [EC2](EC2.md) instances that you are running. You can use Elastic Load Balancing to manage incoming requests by optimally routing traffic so that no one instance is overwhelmed. Your load balancer acts as a single point of contact for all incoming web traffic to your application.
+
+
+## USE CASE
+
+Which of the following AWS services should be used to automatically distribute incoming traffic across multiple targets?
+
+AWS Elastic Load Balancing (ELB)
