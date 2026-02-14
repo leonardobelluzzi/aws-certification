@@ -11,3 +11,23 @@ A developer has written a simple web application in PHP and he wants to just upl
 
 AWS Elastic Beanstalk
 
+## USE CASE 
+
+Which of the following statements is the MOST accurate when describing AWS Elastic Beanstalk?
+
+It is a Platform as a Service (PaaS) that allows you to deploy and scale web applications and services
+
+## USE CASE
+
+Which of the following statements are correct regarding the health monitoring and reporting capabilities supported by AWS Elastic Beanstalk? (Select two)
+
+With basic health reporting, the AWS Elastic Beanstalk service does not publish any metrics to Amazon CloudWatch
+The AWS Elastic Beanstalk health monitoring can determine that the environment's Auto Scaling group is available and has a minimum of at least one instance
+
+## USE CASE
+
+Which of the following statements are true about AWS Elastic Beanstalk? (Select two)
+
+- With AWS Elastic Beanstalk, you can quickly deploy and manage applications in the AWS Cloud without having to learn about the infrastructure that runs those applications
+- There is no additional charge for AWS Elastic Beanstalk. You pay only for the underlying AWS resources that your application consumes
+

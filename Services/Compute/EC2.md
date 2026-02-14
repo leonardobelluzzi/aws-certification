@@ -204,3 +204,47 @@ AWS Shield Advanced provides expanded DDoS attack protection for web application
 
 Amazon Elastic Compute Cloud (Amazon EC2)
 Amazon CloudFront
+
+## USE CASE
+
+Which of the following is the MOST cost-effective Amazon Elastic Compute Cloud (Amazon EC2) instance purchasing option for short-term, spiky and critical workloads on AWS Cloud?
+
+On-Demand Instance
+
+## USE CASE
+
+Which of the following entities can be used to connect to an Amazon Elastic Compute Cloud (Amazon EC2) server from a Mac OS, Windows or Linux based computer via a browser-based client?
+
+Amazon EC2 Instance Connect
+
+## USE CASE
+
+A company would like to reserve Amazon Elastic Compute Cloud (Amazon EC2) compute capacity for three years to reduce costs. The company also plans to increase their workloads during this period. As a Cloud Practitioner, which Amazon Elastic Compute Cloud (Amazon EC2) reserved instance (RI) type would you recommend?
+
+Convertible reserved instance (RI)
+
+## USE CASE
+
+A company would like to optimize Amazon Elastic Compute Cloud (Amazon EC2) costs. Which of the following actions can help with this task? (Select TWO)
+
+Set up Auto Scaling groups to align the number of instances with the demand
+Purchase Amazon EC2 Reserved instances (RIs)
+
+## USE CASE
+
+Which Amazon Elastic Compute Cloud (Amazon EC2) Auto Scaling feature can help with fault tolerance?
+
+Replacing unhealthy Amazon EC2 instances
+
+## USE CASE
+
+A production company with predictable usage would like to reduce the cost of its Amazon Elastic Compute Cloud (Amazon EC2) instances by using reserved instances (RI). Which of the following length terms are available for Amazon EC2 reserved instances (RI)? (Select Two)
+
+3 years
+1 year
+
+## USE CASE
+
+Which of the following billing timeframes is applied when running a Windows EC2 on-demand instance?
+
+Pay per second

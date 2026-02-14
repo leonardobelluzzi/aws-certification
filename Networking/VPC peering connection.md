@@ -6,3 +6,9 @@ Transitive VPC peering connection is not allowed: 
 ![](https://docs.aws.amazon.com/vpc/latest/peering/images/transitive-peering-diagram.png)
 
  via - [https://docs.aws.amazon.com/vpc/latest/peering/invalid-peering-configurations.html](https://docs.aws.amazon.com/vpc/latest/peering/invalid-peering-configurations.html)
+
+## USE CASE
+
+An organization maintains a separate Virtual Private Cloud (VPC) for each of its business units. Two units need to privately share data. Which is the most optimal way of privately sharing data between the two VPCs?
+
+VPC peering connection

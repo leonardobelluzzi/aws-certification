@@ -10,3 +10,9 @@ A block device mapping that specifies the volumes to attach to the instance when
 
 
 ![[Pasted image 20250930200224.png]]
+
+## USE CASE
+
+A company based in Sydney hosts its application on an Amazon Elastic Compute Cloud (Amazon EC2) instance in ap-southeast-2. They would like to deploy the same Amazon EC2 instances in eu-south-1. Which of the following AWS entities can address this use case?
+
+Amazon Machine Image (AMI)

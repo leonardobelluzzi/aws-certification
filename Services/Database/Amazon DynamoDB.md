@@ -66,3 +66,15 @@ Services support reservations to optimize costs
 Which of the following entities should be used for an Amazon Elastic Compute Cloud (Amazon EC2) Instance to access a DynamoDB table?
 
 IAM role
+
+## USE CASE
+
+Which AWS service would you choose for a data processing project that needs a schemaless database?
+Amazon DynamoDB
+
+## USE CASE
+
+Which of the following types are free under the Amazon Simple Storage Service (Amazon S3) pricing model? (Select two)
+
+Data transferred out to an Amazon Elastic Compute Cloud (Amazon EC2) instance, when the instance is in the same AWS Region as the S3 bucket
+Data transferred in from the internet

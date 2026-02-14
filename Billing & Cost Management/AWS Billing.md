@@ -30,3 +30,16 @@ Create separate AWS accounts for development and production environments to rece
 Which benefit of Cloud Computing allows AWS to offer lower pay-as-you-go prices as usage from hundreds of thousands of customers is aggregated in the cloud?
 
 Massive economies of scale
+
+## USE CASE
+
+A company would like to separate cost for AWS services by the department for cost allocation. Which of the following is the simplest way to achieve this task?
+
+Create tags for each department
+
+
+## USE CASE
+
+Which AWS service can be used to view the most comprehensive billing details for the past month?
+
+AWS Cost & Usage Report (AWS CUR)

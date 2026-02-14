@@ -19,3 +19,9 @@
 
 
 ![[Pasted image 20250716145338.png]]
+
+## USE CASE
+
+An enterprise is planning to move one of its older applications from its local data center to AWS. The IT team wants the fastest migration path and has decided not to update the application code or make any architectural changes.
+
+Rehost

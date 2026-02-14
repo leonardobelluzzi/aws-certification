@@ -11,3 +11,9 @@ How CloudFormation Works: 
 Which AWS service will you use to provision the same AWS infrastructure across multiple AWS accounts and regions?
 
 AWS CloudFormation
+
+## USE CASE
+
+A Cloud Practitioner would like to deploy identical resources across all AWS regions and accounts using templates while estimating costs. Which AWS service can assist with this task?
+
+AWS CloudFormation

@@ -11,5 +11,12 @@ The AWS Professional Services organization is a global team of experts that can 
 An organization is planning to move its infrastructure from the on-premises datacenter to AWS Cloud. As a Cloud Practioner, which options would you recommend so that the organization can identify the right AWS services to build solutions on AWS Cloud (Select two)?
 
 AWS Service Catalog
-
 AWS Partner Network (APN)
+
+## USE CASE
+
+A start-up would like to quickly deploy a popular technology on AWS. As a Cloud Practitioner, which AWS tool would you use for this task?
+
+Correct answer
+
+AWS Partner Solutions (formerly Quick Starts)

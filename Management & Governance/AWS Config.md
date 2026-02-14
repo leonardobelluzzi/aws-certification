@@ -8,3 +8,10 @@ AWS Config provides a detailed view of the configuration of AWS resources in you
 An organization has a complex IT architecture involving a lot of system dependencies and it wants to track the history of changes to each resource. Which AWS service will help the organization track the history of configuration changes for all the resources?
 
 AWS Config
+
+## USE CASE
+
+A research lab needs to be notified in case of a configuration change for security and compliance reasons. Which AWS service can assist with this task?
+
+AWS Config
+

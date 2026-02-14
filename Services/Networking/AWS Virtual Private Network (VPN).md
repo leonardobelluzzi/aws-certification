@@ -15,3 +15,9 @@ Which of the following are components of an AWS Site-to-Site VPN?
 
 Customer gateway
 Virtual private gateway (VGW)
+
+## USE CASE
+
+A production company would like to establish an AWS managed virtual private network (VPN) service between its on-premises network and AWS. Which item needs to be set up on the company's side?
+
+A customer gateway

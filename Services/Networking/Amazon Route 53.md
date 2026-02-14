@@ -37,3 +37,16 @@ Which of the following AWS services can be used to prevent Distributed Denial-of
 - AWS Shield
 - AWS Web Application Firewall (AWS WAF)
 - Amazon CloudFront with Amazon Route 53
+
+## USE CASE
+
+Which Amazon Route 53 routing policy would you use to route traffic to a single resource such as a web server for your website?
+
+Simple routing
+
+## USE CASE
+
+Which of the following services are provided by Amazon Route 53? (Select Two)
+
+Health checks and monitoring
+Domain registration

@@ -5,3 +5,9 @@ AWS CloudHSM is a cloud-based Hardware Security Module (HSM) that enables you to
 Due to regulatory and compliance reasons, an organization is supposed to use a hardware device for any data encryption operations in the cloud. Which AWS service can be used to meet this compliance requirement?
 
 AWS CloudHSM
+
+## USE CASE
+
+Which of the following AWS services can be used to generate, use, and manage encryption keys on the AWS Cloud?
+
+AWS CloudHSM

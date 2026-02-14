@@ -38,3 +38,17 @@ Use Amazon CloudWatch Logs for both the Amazon Elastic Compute Cloud (Amazon EC2
 Which AWS service can be used to set up billing alarms to monitor estimated charges on your AWS account?
 
 Amazon CloudWatch
+
+## USE CASE
+
+Which AWS services can be used together to send alerts whenever the AWS account root user signs in? (Select two)
+
+Amazon CloudWatch
+Amazon Simple Notification Service (Amazon SNS)
+
+## USE CASE
+
+Which types of monitoring can be provided by Amazon CloudWatch? (Select TWO)
+
+Application performance
+Resource utilization

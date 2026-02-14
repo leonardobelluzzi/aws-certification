@@ -13,3 +13,11 @@ AWS CloudTrail
 ## USE CASE 
 
 has encryption enabled by default
+
+## USE CASE
+
+A company has defined a baseline that mentions the number of AWS resources to be used for different stages of application testing. However, the company realized that employees are not adhering to the guidelines and provisioning additional resources via API calls, resulting in higher testing costs.
+
+Which AWS service will help the company raise alarms whenever the baseline resource numbers are crossed?
+
+AWS CloudTrail Insights

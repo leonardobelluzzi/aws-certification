@@ -23,3 +23,10 @@ A multi-national organization has a separate virtual private cloud (VPC) for eac
 
 AWS Transit Gateway
 AWS Direct Connect
+
+## USE CASE
+
+A company would like to create a private, high bandwidth network connection between its on-premises data centers and AWS Cloud. As a Cloud Practitioner, which of the following options would you recommend?
+
+VPC Endpoints
+AWS Direct Connect

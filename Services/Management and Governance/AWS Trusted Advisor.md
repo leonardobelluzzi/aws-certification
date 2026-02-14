@@ -44,3 +44,15 @@ When you allow public access to Amazon S3 buckets
 Which AWS service can help you analyze your infrastructure to identify unattached or underutilized Amazon EBS Elastic Volumes?
 
 AWS Trusted Advisor
+
+## USE CASE
+
+Which AWS tool can provide best practice recommendations for performance, service limits, and cost optimization?
+
+AWS Trusted Advisor
+
+## USE CASE
+
+Which AWS tool can provide best practice recommendations for performance, service limits, and cost optimization?
+
+AWS Trusted Advisor

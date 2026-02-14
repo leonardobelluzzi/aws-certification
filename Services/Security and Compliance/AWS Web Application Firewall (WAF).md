@@ -42,3 +42,9 @@ Which of the following are benefits of the AWS Web Application Firewall (AWS WAF
 
 AWS Web Application Firewall (AWS WAF) can block all requests except the ones that you allow
 AWS Web Application Firewall (AWS WAF) can check for the presence of SQL code that is likely to be malicious (known as SQL injection)
+
+## USE CASE
+
+AWS Web Application Firewall (AWS WAF) can be deployed on which of the following services?
+
+Amazon CloudFront, Application Load Balancer, Amazon API Gateway, AWS AppSync

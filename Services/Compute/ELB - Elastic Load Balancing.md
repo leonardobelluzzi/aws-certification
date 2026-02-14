@@ -13,3 +13,10 @@ AWS Elastic Load Balancing (ELB)
 Which of the following is best-suited for load-balancing HTTP and HTTPS traffic?
 
 Application Load Balancer
+
+## USE CASE
+
+Which of the following options are the benefits of using AWS Elastic Load Balancing (ELB)? (Select TWO)
+
+Fault tolerance
+High availability

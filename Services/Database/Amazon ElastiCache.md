@@ -9,3 +9,7 @@ Amazon ElastiCache allows you to seamlessly set up, run, and scale popular open-
 Which AWS service can be used as an in-memory database with high-performance and low latency?
 
 Amazon ElastiCache
+
+The IT infrastructure at a university is deployed on AWS Cloud and it's experiencing a read-intensive workload. As a Cloud Practitioner, which AWS service would you use to take the load off databases?
+
+Amazon ElastiCache

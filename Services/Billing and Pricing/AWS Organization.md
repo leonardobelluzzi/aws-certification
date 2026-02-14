@@ -26,3 +26,10 @@ AWS Organizations provides which of the following benefits? (Select two)
 
 Volume discounts for Amazon EC2 and Amazon S3 aggregated across the member AWS accounts
 Share the reserved Amazon EC2 instances amongst the member AWS accounts
+
+## USE CASE
+
+Which of the following are the best practices when using AWS Organizations? (Select TWO)
+
+Restrict account privileges using Service Control Policies (SCP)
+Create AWS accounts per department

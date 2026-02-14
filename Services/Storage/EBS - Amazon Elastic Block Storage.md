@@ -38,3 +38,22 @@ Amazon Elastic File System (Amazon EFS) is file based storage
 Which of the following AWS services offer block-level storage?
 
 Amazon Elastic Block Store (Amazon EBS)
+
+## USE CASE
+
+Which of the following statements is INCORRECT regarding Amazon EBS Elastic Volumes?
+
+Amazon EBS Elastic Volumes can be bound to several Availability Zones (AZs)
+
+## USE CASE 
+
+Which of the following criteria are used to calculate the charge for Amazon EBS Volumes? (Select Two)
+
+Provisioned IOPS
+Volume type
+
+## USE CASE
+
+An organization would like to copy data across different Availability Zones (AZs) using Amazon EBS snapshots. Where are Amazon EBS snapshots stored in the AWS Cloud?
+
+Amazon Simple Storage Service (Amazon S3)

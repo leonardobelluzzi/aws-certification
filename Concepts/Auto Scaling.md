@@ -41,3 +41,9 @@ Read Replicas in Amazon Relational Database Service (Amazon RDS)
 Which AWS technology/service helps you to scale your resources to match supply with demand while still keeping your cloud solution cost-effective?
 
 AWS Auto Scaling
+
+## USE CASE
+
+Adding more CPU/RAM to an Amazon Elastic Compute Cloud (Amazon EC2) instance represents which of the following?
+
+Vertical scaling

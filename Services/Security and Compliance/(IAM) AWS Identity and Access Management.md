@@ -61,3 +61,28 @@ Effect, Action
 Which of the following entities should be used for an Amazon Elastic Compute Cloud (Amazon EC2) Instance to access a DynamoDB table?
 
 IAM role
+
+## USE CASE
+
+A corporation would like to simplify access management to multiple AWS accounts as well as facilitate AWS Single Sign-On (AWS SSO) access to its AWS accounts. As a Cloud Practitioner, which AWS service would you use for this task?
+
+AWS IAM Identity Center
+
+## USE CASE
+
+A multinational company has just moved its infrastructure to AWS Cloud and has employees traveling to different offices around the world. How should the company set the AWS accounts?
+
+There is nothing to do, AWS Identity and Access Management (AWS IAM) is a global service
+
+## USE CASE
+
+Which of the following AWS Identity and Access Management (AWS IAM) Security Tools allows you to review permissions granted to an IAM user?
+
+AWS Identity and Access Management (IAM) access advisor
+
+## USE CASE
+
+Which of the following are the security best practices suggested by AWS for Identity and Access Management (IAM)? (Select two)
+
+When you create IAM policies, grant the least privileges required to perform a task
+Do not share security credentials between accounts, use IAM roles instead

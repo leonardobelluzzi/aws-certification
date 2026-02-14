@@ -278,3 +278,15 @@ Which of the following entities are part of an Amazon Virtual Private Cloud (Ama
 
 Internet Gateway
 Subnet
+
+## USE CASE 
+
+Which security control tool can be used to deny traffic from a specific IP address?
+
+Network Access Control List (network ACL)
+
+## USE CASE
+
+Which of the following statements is CORRECT regarding the scope of an Amazon Virtual Private Cloud (VPC)?
+
+A VPC spans all Availability Zones (AZs) within an AWS region

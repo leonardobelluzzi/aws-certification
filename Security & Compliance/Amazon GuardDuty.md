@@ -9,3 +9,9 @@ Amazon GuardDuty is a threat detection service that monitors malicious activity 
 Which AWS service protects your AWS account by monitoring malicious activity and detecting threats?
 
 Amazon GuardDuty
+
+## USE CASE
+
+What is the primary use case for Amazon GuardDuty?
+
+Detecting malicious activity and threats in your AWS accounts and workloads

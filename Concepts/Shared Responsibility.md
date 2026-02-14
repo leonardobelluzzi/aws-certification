@@ -221,3 +221,29 @@ AWS is responsible for Security 'of' the Cloud
 For abstracted services like Amazon S3, AWS operates the infrastructure layer, the operating system, and platforms
 
 
+## USE CASE 
+
+According to the AWS Shared Responsibility Model, which of the following are responsibilities of the customer for AWS Identity and Access Management (AWS IAM)? (Select two)
+
+Analyze user access patterns and review AWS Identity and Access Management (AWS IAM) permissions
+Enable multi-factor authentication (MFA) on all accounts
+
+## USE CASE
+
+According to the AWS Shared Responsibility Model, which of the following is the responsibility of the customer?
+
+Firewall & networking configuration of Amazon Elastic Compute Cloud (Amazon EC2)
+
+## USE CASE
+
+According to the AWS Shared Responsibility Model, which of the following are the responsibilities of AWS? (Select two)
+
+Network operability
+Data center security
+
+## USE CASE
+
+According to the AWS Shared Responsibility Model, which of the following is both the responsibility of AWS and the customer? (Select two)
+
+Operating system (OS) configuration
+Configuration management

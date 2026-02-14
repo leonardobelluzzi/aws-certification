@@ -8,3 +8,11 @@ Amazon Macie is a fully managed data security and data privacy service that uses
 The CTO further wants to ensure that any sensitive data on S3 is discovered and identified to prevent any sensitive data leaks.
 
 Amazon Macie
+
+## USE CASE
+
+A growing start-up has trouble identifying and protecting sensitive data at scale. Which AWS fully managed service can assist with this task?
+
+Your answer is correct
+
+Amazon Macie

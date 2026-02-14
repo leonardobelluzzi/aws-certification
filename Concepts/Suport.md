@@ -23,3 +23,9 @@ You should use the AWS Enterprise Support plan to provide customers with concier
 Which AWS support plan provides access to a designated Technical Account Manager (TAM)?
 
 AWS Enterprise Support
+
+## USE CASE
+
+Which of the following AWS Support plans is the MOST cost-effective when getting enhanced technical support by Cloud Support Engineers?
+
+AWS Business Support

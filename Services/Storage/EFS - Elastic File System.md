@@ -59,3 +59,9 @@ Which AWS services/features support High Availability by default?
 
 Amazon Elastic File System (Amazon EFS)
 Amazon DynamoDB
+
+## USE CASE
+
+Which of the following AWS storage services can be directly used with on-premises systems?
+
+Amazon Elastic File System (Amazon EFS)

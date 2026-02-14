@@ -21,3 +21,9 @@ AWS Health Dashboard - service health
 An AWS hardware failure has impacted one of your Amazon Elastic Block Store (Amazon EBS) volumes. Which AWS service will alert you of the affected resources and provide a remedial action?
 
 AWS Health Dashboard – Your account health
+
+## USE CASE
+
+Which AWS service can be used to subscribe to an RSS feed to be notified of the status of all AWS service interruptions?
+
+AWS Health Dashboard - Service Health
