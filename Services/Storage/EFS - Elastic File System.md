@@ -65,3 +65,10 @@ Amazon DynamoDB
 Which of the following AWS storage services can be directly used with on-premises systems?
 
 Amazon Elastic File System (Amazon EFS)
+
+
+## USE CASE
+
+Which storage service should the company use to move their files to AWS Cloud seamlessly if the application is hosted on Amazon Elastic Compute Cloud (Amazon EC2) instances?
+
+Amazon Elastic File System (Amazon EFS)

@@ -248,3 +248,9 @@ A production company with predictable usage would like to reduce the cost of its
 Which of the following billing timeframes is applied when running a Windows EC2 on-demand instance?
 
 Pay per second
+
+## USE CASE
+
+Per the AWS Shared Responsibility Model, management of which of the following AWS services is the responsibility of the customer?
+
+Amazon Elastic Compute Cloud (Amazon EC2)

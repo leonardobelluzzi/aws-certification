@@ -17,6 +17,13 @@ AWS Partner Network (APN)
 
 A start-up would like to quickly deploy a popular technology on AWS. As a Cloud Practitioner, which AWS tool would you use for this task?
 
-Correct answer
 
 AWS Partner Solutions (formerly Quick Starts)
+
+## USE CASE
+
+A financial consulting company is looking for automated reference deployments, that will speed up the process of deploying its financial solutions on AWS Cloud. The reference deployment should be able to deploy most of the well-known functions of financial services and leave space for customizations, if necessary.
+
+Which AWS service will help achieve this requirement?
+
+AWS Partner Solutions(formerly Quick Starts)

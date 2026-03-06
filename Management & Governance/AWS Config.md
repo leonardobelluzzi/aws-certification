@@ -15,3 +15,9 @@ A research lab needs to be notified in case of a configuration change for securi
 
 AWS Config
 
+## USE CASE
+
+A team manager needs data about the changes that have taken place for AWS resources in his account during the past two weeks. Which AWS service can help get this data?
+
+AWS Config
+

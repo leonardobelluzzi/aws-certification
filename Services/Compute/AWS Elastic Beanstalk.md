@@ -31,3 +31,8 @@ Which of the following statements are true about AWS Elastic Beanstalk? (Select 
 - With AWS Elastic Beanstalk, you can quickly deploy and manage applications in the AWS Cloud without having to learn about the infrastructure that runs those applications
 - There is no additional charge for AWS Elastic Beanstalk. You pay only for the underlying AWS resources that your application consumes
 
+## USE ASE
+
+
+**AWS Elastic Beanstalk**
+There is no additional charge for AWS Elastic Beanstalk. You pay for AWS resources (e.g. EC2 instances or S3 buckets) you create to store and run your application. You only pay for what you use, as you use it; there are no minimum fees and no upfront commitments.

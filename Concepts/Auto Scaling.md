@@ -47,3 +47,9 @@ AWS Auto Scaling
 Adding more CPU/RAM to an Amazon Elastic Compute Cloud (Amazon EC2) instance represents which of the following?
 
 Vertical scaling
+
+## USE ASE
+
+**AWS Auto Scaling**
+
+There is no additional charge for AWS Auto Scaling. You pay only for the AWS resources needed to run your applications and Amazon CloudWatch monitoring fees.

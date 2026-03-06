@@ -25,3 +25,9 @@ According to the AWS Well-Architected Framework, which of the following statemen
 
 Make frequent, small, reversible changes
 Anticipate failure
+
+## USE CASE
+
+Which pillar of AWS Well-Architected Framework focuses on using IT and computing resources efficiently, while considering the right resource types and sizes based on workload requirements?
+
+Performance Efficiency Pillar

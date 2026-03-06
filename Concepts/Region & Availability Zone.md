@@ -15,3 +15,10 @@ An Availability Zone (AZ) is one or more discrete data centers with redundant po
 An IT company would like to move its IT resources (including any data and applications) from an AWS Region in the US to another AWS Region in Europe. Which of the following represents the correct solution for this use-case?
 
 The company should just start creating new resources in the destination AWS Region and then migrate the relevant data and applications into this new AWS Region
+
+## USE CASE
+
+Which of the following points have to be considered when choosing an AWS Region for a service? (Select two)
+
+AWS Region chosen should be geographically closer to the user base that utilizes the hosted AWS services
+Compliance and Data Residency guidelines of the AWS Region should match your business requirements
