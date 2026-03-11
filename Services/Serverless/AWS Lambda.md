@@ -41,3 +41,9 @@ AWS Compute Optimizer delivers recommendations for which of the following AWS re
 Under the AWS Shared Responsibility Model, which of the following is the responsibility of a customer regarding AWS Lambda?
 
 Maintain versions of an AWS Lambda function
+
+## USE CASE
+
+Which of the following is the responsibility of the customer when running applications using AWS Lambda?
+
+Writing and maintaining the function code and its dependencies

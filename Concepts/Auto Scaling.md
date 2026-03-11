@@ -8,6 +8,10 @@ AWS Auto Scaling monitors your applications and automatically adjusts the capaci
 
 You can use scaling policies to increase or decrease the number of instances in your group dynamically to meet changing conditions. When the scaling policy is in effect, the Auto Scaling group adjusts the desired capacity of the group, between the minimum and maximum capacity values that you specify, and launches or terminates the instances as needed. You can also scale on a schedule.
 
+### Auto Scaling Groups (ASG)
+
+São uma funcionalidade essencial na arquitetura de nuvem, especialmente na AWS. Eles permitem que os usuários **escalem automaticamente a capacidade de suas instâncias de computação**, garantindo que a aplicação tenha sempre a quantidade adequada de recursos disponíveis. Os ASGs operam com base em políticas definidas pelo usuário, que determinam quando e como as instâncias devem ser adicionadas ou removidas, acionadas por métricas como uso de CPU ou latência de rede.
+
 
 ## USE CASE
 
@@ -47,3 +51,10 @@ AWS Auto Scaling
 Adding more CPU/RAM to an Amazon Elastic Compute Cloud (Amazon EC2) instance represents which of the following?
 
 Vertical scaling
+
+## USE CASE
+
+Which of the following represents the correct scenario where an Auto Scaling group's (ASG) predictive scaling can be effectively used to maintain the required number of AWS resources?
+
+To manage a workload that exhibits recurring load patterns that are specific to the day of the week or the time of day
+

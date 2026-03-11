@@ -41,3 +41,11 @@ Elasticity
 Which policy describes prohibited uses of the web services offered by Amazon Web Services?
 
 AWS Acceptable Use Policy
+
+## USE CASE
+
+A company provides you with a completed product that is run and managed by the company itself. As a customer, you only use the product without worrying about maintaining or managing the product.
+
+Which cloud computing model does this kind of product belong to?
+
+Software as a Service (SaaS)

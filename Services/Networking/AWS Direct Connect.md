@@ -30,3 +30,9 @@ A company would like to create a private, high bandwidth network connection betw
 
 VPC Endpoints
 AWS Direct Connect
+
+## USE CASE
+
+A company wants to establish a private, dedicated connection between AWS and its on-premises data center. Which AWS service is the right choice for this requirement?
+
+AWS Direct Connect

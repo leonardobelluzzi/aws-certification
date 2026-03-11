@@ -21,3 +21,23 @@ A company has defined a baseline that mentions the number of AWS resources to be
 Which AWS service will help the company raise alarms whenever the baseline resource numbers are crossed?
 
 AWS CloudTrail Insights
+
+## USE CASE
+
+By default, which of the following events are logged by AWS CloudTrail?
+
+Management events
+
+## USE CASE
+
+A Security Group has been changed in an AWS account and the manager of the account has asked you to find out the details of the user who changed it. As a Cloud Practitioner, which AWS service will you use to fetch the necessary information?
+
+AWS CloudTrail
+
+## USE CASE
+
+Due to regulatory guidelines, a company needs to encrypt data as it passes through the different layers of its AWS architecture. The company is reviewing the capabilities of the various AWS services and their encryption options.
+
+Which of the below services are encrypted by default and need no user intervention to enable encryption?
+
+AWS CloudTrail Logs, Amazon S3 Glacier, AWS Storage Gateway

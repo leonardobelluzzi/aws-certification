@@ -290,3 +290,9 @@ Network Access Control List (network ACL)
 Which of the following statements is CORRECT regarding the scope of an Amazon Virtual Private Cloud (VPC)?
 
 A VPC spans all Availability Zones (AZs) within an AWS region
+
+## USE CASE
+
+Which of the following AWS services will help provision a logically isolated network for your AWS resources?
+
+Amazon Virtual Private Cloud (Amazon VPC)

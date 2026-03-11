@@ -19,3 +19,9 @@ AWS Cost Explorer
 Which AWS service can be used to view the most comprehensive billing details for the past month?
 
 AWS Cost & Usage Report (AWS CUR)
+
+## USE CASE
+
+Which tool/service will help you get a forecast of your spending for the next 12 months?
+
+AWS Cost Explorer

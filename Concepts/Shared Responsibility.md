@@ -247,3 +247,11 @@ According to the AWS Shared Responsibility Model, which of the following is both
 
 Operating system (OS) configuration
 Configuration management
+
+## USE CASE
+
+Which of the following statements are true about AWS Shared Responsibility Model? (Select two)
+
+AWS is responsible for patching and fixing flaws within the infrastructure, but customers are responsible for patching their guest operating system and applications
+
+AWS trains AWS employees, but a customer must train their own employees

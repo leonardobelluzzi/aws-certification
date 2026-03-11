@@ -29,3 +29,18 @@ AWS Enterprise Support
 Which of the following AWS Support plans is the MOST cost-effective when getting enhanced technical support by Cloud Support Engineers?
 
 AWS Business Support
+
+## USE CASE
+
+Which of the following statements are correct regarding the AWS Support Plans? (Select two)
+
+Both Basic and AWS Developer Support plans have access to the core Trusted Advisor checks only
+
+A designated Technical Account Manager is available only for AWS Enterprise Support plan
+
+## USE CASE
+
+AWS Support offers five support plans for its customers. Which of the following features are covered as part of the AWS Basic Support Plan? (Select two)
+
+Service health checks
+One-on-one responses to account and billing questions

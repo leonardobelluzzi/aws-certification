@@ -15,3 +15,10 @@ An Availability Zone (AZ) is one or more discrete data centers with redundant po
 An IT company would like to move its IT resources (including any data and applications) from an AWS Region in the US to another AWS Region in Europe. Which of the following represents the correct solution for this use-case?
 
 The company should just start creating new resources in the destination AWS Region and then migrate the relevant data and applications into this new AWS Region
+
+## USE CASE
+
+Which of the following statements are true about AWS Regions and Availability Zones (AZ)? (Select two)
+
+All traffic between Availability Zones (AZ) is encrypted
+Each AWS Region consists of multiple, isolated, and physically separate Availability Zones (AZ) within a geographic area

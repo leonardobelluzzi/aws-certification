@@ -34,3 +34,11 @@ AWS Cost & Usage Report (AWS CUR)
 Which of the following AWS services can be used to forecast your AWS account usage and costs?
 
 AWS Cost Explorer
+
+## USE CASE 
+
+An organization is looking to break down its AWS spending so that each department and project can be accurately charged for the resources they consume.
+
+Which AWS feature or service is the best fit for this use-case?
+
+AWS cost allocation tags

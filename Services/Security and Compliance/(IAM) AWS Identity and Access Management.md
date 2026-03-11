@@ -86,3 +86,10 @@ Which of the following are the security best practices suggested by AWS for Iden
 
 When you create IAM policies, grant the least privileges required to perform a task
 Do not share security credentials between accounts, use IAM roles instead
+
+## USE CASE
+
+As a Cloud Practitioner, which of the following credentials would you recommend for signing in to the AWS Management Console to meet security best practices? (Select two)
+
+IAM Username and password
+Multi Factor Authentication (MFA)

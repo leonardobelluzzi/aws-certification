@@ -25,3 +25,9 @@ According to the AWS Well-Architected Framework, which of the following statemen
 
 Make frequent, small, reversible changes
 Anticipate failure
+
+## USE CASE
+
+Which free tool helps to review the state of your workloads and compares them to the latest AWS architectural best practices after you have answered a series of questions about your workload?
+
+AWS Well-Architected Tool

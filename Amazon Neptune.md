@@ -6,3 +6,10 @@ Amazon Neptune is a fast, reliable, fully-managed graph database service that ma
 An e-learning company wants to build a knowledge graph by leveraging a fully managed database. Which of the following is the best fit for this requirement?
  
 Amazon Neptune
+
+## USE CASE
+
+Which of the following are NoSQL database services from AWS? (Select two)
+
+Amazon DocumentDB
+Amazon Neptune

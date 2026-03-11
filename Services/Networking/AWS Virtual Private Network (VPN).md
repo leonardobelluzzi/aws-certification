@@ -21,3 +21,11 @@ Virtual private gateway (VGW)
 A production company would like to establish an AWS managed virtual private network (VPN) service between its on-premises network and AWS. Which item needs to be set up on the company's side?
 
 A customer gateway
+
+## USE CASE
+
+A Cloud Practitioner wants to use CIDR block notation when providing an IP address range. Which of the following AWS network services/utilities allow this feature? (Select two)
+
+Network access control list (network ACL)
+
+Security group
