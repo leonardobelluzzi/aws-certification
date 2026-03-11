@@ -78,3 +78,9 @@ Which of the following types are free under the Amazon Simple Storage Service (A
 
 Data transferred out to an Amazon Elastic Compute Cloud (Amazon EC2) instance, when the instance is in the same AWS Region as the S3 bucket
 Data transferred in from the internet
+
+## USE CASE
+
+A weather-tracking application is built using Amazon DynamoDB. The performance of the application has been consistently good. But lately, the team has realized that during holidays and travel seasons, the load on the application is high and the read requests consume most of the database resources, thereby drastically increasing the overall application latency.
+
+Amazon DynamoDB Accelerator

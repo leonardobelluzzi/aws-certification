@@ -18,7 +18,7 @@ The company should just start creating new resources in the destination AWS Regi
 
 ## USE CASE
 
-Which of the following statements are true about AWS Regions and Availability Zones (AZ)? (Select two)
+Which of the following points have to be considered when choosing an AWS Region for a service? (Select two)
 
-All traffic between Availability Zones (AZ) is encrypted
-Each AWS Region consists of multiple, isolated, and physically separate Availability Zones (AZ) within a geographic area
+AWS Region chosen should be geographically closer to the user base that utilizes the hosted AWS services
+Compliance and Data Residency guidelines of the AWS Region should match your business requirements

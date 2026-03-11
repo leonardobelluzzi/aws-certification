@@ -28,6 +28,6 @@ Anticipate failure
 
 ## USE CASE
 
-Which free tool helps to review the state of your workloads and compares them to the latest AWS architectural best practices after you have answered a series of questions about your workload?
+Which pillar of AWS Well-Architected Framework focuses on using IT and computing resources efficiently, while considering the right resource types and sizes based on workload requirements?
 
-AWS Well-Architected Tool
+Performance Efficiency Pillar
