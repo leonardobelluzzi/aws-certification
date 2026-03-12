@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Leonardo Belluzzi | CV</title>
+  <style>
+    @font-face {
+      font-family: "McKinsey Sans";
+      src: local("McKinsey Sans"), local("McKinseySans");
+      font-weight: 400;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    @font-face {
+      font-family: "McKinsey Sans";
+      src: local("McKinsey Sans Bold"), local("McKinseySans-Bold"), local("McKinsey Sans");
+      font-weight: 700;
+      font-style: normal;
+      font-display: swap;
+    }
+
+    :root {
+      --brand-1: #727273;
+      --brand-2: #F0F0F2;
+      --brand-3: #D0D3D9;
+      --brand-4: #8B8C5E;
+      --brand-5: #262626;
+      --paper: var(--brand-2);
+      --ink: var(--brand-5);
+      --font-sans: "McKinsey Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(180deg, var(--brand-2) 0%, var(--brand-3) 100%);
+      color: var(--ink);
+      font-family: var(--font-sans);
+      scroll-behavior: smooth;
+    }
+
+    .top-nav {
+      max-width: 980px;
+      margin: 26px auto 0;
+      padding: 0 20px;
+      text-align: center;
+      font-size: 0.9rem;
+      line-height: 1.8;
+    }
+
+    .top-nav strong {
+      font-weight: 700;
+      color: var(--ink);
+    }
+
+    .top-nav a {
+      color: var(--brand-5);
+      text-underline-offset: 4px;
+      text-decoration-thickness: 1.5px;
+      transition: color 0.2s ease;
+    }
+
+    .top-nav a:hover {
+      color: var(--brand-4);
+    }
+
+    .container {
+      max-width: 980px;
+      margin: 0 auto;
+      padding: 72px 20px 80px;
+    }
+
+    .hero-shell {
+      display: grid;
+      grid-template-columns: 1.15fr 0.85fr;
+      gap: 26px;
+      align-items: center;
+      margin-bottom: 70px;
+      animation: reveal 0.7s ease-out;
+    }
+
+    .hero-media {
+      background: rgba(240, 240, 242, 0.7);
+      box-shadow: 0 4px 14px rgba(38, 38, 38, 0.06);
+      border-radius: 2px;
+      overflow: hidden;
+      position: relative;
+    }
+
+    .hero-media img {
+      display: block;
+      width: 100%;
+      height: auto;
+      min-height: 280px;
+      object-fit: cover;
+    }
+
+    .hero-media::after {
+      content: "";
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(180deg, rgba(240, 240, 242, 0) 50%, rgba(139, 140, 94, 0.16) 100%);
+      pointer-events: none;
+    }
+
+    .hero {
+      text-align: left;
+      margin-bottom: 0;
+    }
+
+    .hero h1 {
+      margin: 0;
+      font-family: var(--font-sans);
+      font-weight: 700;
+      font-size: clamp(2.4rem, 6.6vw, 4.5rem);
+      line-height: 1.08;
+      color: var(--ink);
+      letter-spacing: -0.02em;
+    }
+
+    .hero .role {
+      margin-top: 12px;
+      font-size: 1.02rem;
+      font-weight: 700;
+      color: var(--brand-4);
+      letter-spacing: 0.02em;
+    }
+
+    .hero .contact {
+      margin-top: 14px;
+      color: #3f3f3f;
+      font-size: 0.94rem;
+      line-height: 1.7;
+    }
+
+    .hero .contact a {
+      color: var(--brand-5);
+      text-underline-offset: 4px;
+    }
+
+    section {
+      margin-bottom: 52px;
+      animation: reveal 0.8s ease-out;
+    }
+
+    .title {
+      font-family: var(--font-sans);
+      font-weight: 700;
+      font-size: clamp(2rem, 5vw, 3.6rem);
+      line-height: 1.08;
+      margin: 0 0 24px;
+      text-align: center;
+      color: var(--ink);
+      letter-spacing: -0.015em;
+    }
+
+    .lede {
+      font-size: clamp(1.08rem, 2.2vw, 1.22rem);
+      line-height: 1.65;
+      max-width: 900px;
+      margin: 0 auto;
+      color: #3a3a3a;
+    }
+
+    .lede strong {
+      color: var(--brand-4);
+    }
+
+    .columns {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 28px;
+    }
+
+    .card {
+      background: rgba(240, 240, 242, 0.82);
+      padding: 20px 18px;
+      box-shadow: none;
+    }
+
+    .card h3 {
+      margin: 0 0 12px;
+      color: var(--brand-4);
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 10px;
+      line-height: 1.55;
+    }
+
+    .experience-item {
+      padding: 18px 0;
+      border-top: 0;
+    }
+
+    .experience-item:first-child {
+      border-top: 0;
+      padding-top: 0;
+    }
+
+    .experience-item h3 {
+      margin: 0;
+      font-size: 1.26rem;
+      color: var(--brand-5);
+    }
+
+    .experience-item .meta {
+      margin: 5px 0 12px;
+      font-size: 0.9rem;
+      font-weight: 700;
+      color: #5a5a5a;
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+    }
+
+    .experience-item p {
+      margin: 0;
+      line-height: 1.65;
+      color: #3a3a3a;
+    }
+
+    .experience-item ul {
+      margin-top: 6px;
+    }
+
+    .stack {
+      margin-top: 10px;
+      font-size: 0.95rem;
+      color: #3a3a3a;
+    }
+
+    .footer {
+      border-top: 0;
+      padding-top: 14px;
+      text-align: center;
+      color: #4b4b4b;
+      font-size: 0.9rem;
+    }
+
+    @media print {
+      @page {
+        size: A4;
+        margin: 12mm;
+      }
+
+      html,
+      body {
+        background: var(--paper) !important;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+      }
+
+      .container {
+        max-width: none;
+        padding: 10px 0 0;
+      }
+
+      .top-nav {
+        margin-top: 0;
+      }
+
+      .hero-shell,
+      section,
+      .experience-item,
+      .card {
+        break-inside: avoid;
+      }
+
+      .hero-media img {
+        min-height: 220px;
+      }
+    }
+
+    @keyframes reveal {
+      from {
+        opacity: 0;
+        transform: translateY(10px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @media (max-width: 820px) {
+      .container {
+        padding-top: 56px;
+      }
+
+      .hero-shell {
+        grid-template-columns: 1fr;
+        gap: 18px;
+        margin-bottom: 52px;
+      }
+
+      .hero {
+        text-align: center;
+      }
+
+      .columns {
+        grid-template-columns: 1fr;
+      }
+
+      .lede {
+        font-size: 1.03rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="top-nav">
+    <strong>On this page:</strong>
+    <a href="#summary">Summary</a> |
+    <a href="#qualifications">Core Qualifications</a> |
+    <a href="#experience">Professional Experience</a> |
+    <a href="#education">Education & Courses</a>
+  </div>
+
+  <main class="container">
+    <section class="hero-shell" aria-label="Introduction">
+      <header class="hero">
+        <h1>Leonardo Belluzzi</h1>
+        <div class="role">Architecture Coordinator | Systems Specialist</div>
+        <div class="contact">
+          Sao Paulo, Brazil | +55 11 94682-0009 | <a href="mailto:leonardo.belluzzi@gmail.com">leonardo.belluzzi@gmail.com</a><br />
+          <a href="https://www.linkedin.com/in/leonardo-belluzzi" target="_blank" rel="noreferrer">linkedin.com/in/leonardo-belluzzi</a>
+        </div>
+      </header>
+
+      <figure class="hero-media" aria-label="Visual banner">
+        <img src="Copilot_20260312_092302.png" alt="Decorative McKinsey visual" />
+      </figure>
+    </section>
+
+    <section id="summary">
+      <h2 class="title">What I Bring</h2>
+      <p class="lede">
+        Technology professional with 10+ years of experience in software engineering, architecture, and technical leadership across insurance and financial services environments. Currently working in an architecture team, guiding development squads on implementation and sustainability best practices while coordinating initiatives in security, DevOps, and observability. Strong background in full-stack development, cloud-native architecture on AWS, production support for mission-critical systems, and delivery of strategic modernization initiatives.
+      </p>
+      <p class="lede" style="margin-top: 18px;">
+        Built career progression from intern to architecture coordinator by combining hands-on development, operational ownership, and technical leadership. Experienced in translating business needs into scalable architecture decisions, reducing delivery risks through engineering standards, and enabling teams with practical governance. I genuinely love learning, and new projects bring me a strong sense of excitement and purpose.
+      </p>
+    </section>
+
+    <section id="qualifications" class="columns">
+      <article class="card">
+        <h3>Core Qualifications</h3>
+        <ul>
+          <li>8+ years building readable, testable, maintainable, and scalable software.</li>
+          <li>Strong collaboration with technical and non-technical stakeholders.</li>
+          <li>Hands-on background across infrastructure, backend, and data layers, with continuous learning mindset.</li>
+          <li>Experience with cloud platforms (primarily AWS) and delivery practices including Docker and CI/CD.</li>
+          <li>Agile delivery with active participation in ceremonies and pair programming.</li>
+          <li>Strong focus on automated testing, logging, monitoring, and reliability.</li>
+          <li>Professional communication in Portuguese and English.</li>
+          <li>Proven ability to operate in complex and autonomous environments with strong time management and ownership.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>Technical Stack</h3>
+        <ul>
+          <li>Backend: Java, Spring Boot, Spring MVC, Spring Data, Spring Security, Java EE, EJB, Hibernate, PL/SQL, Node.js.</li>
+          <li>Frontend: JavaScript, TypeScript, AngularJS, Angular Material, JSF, JSP.</li>
+          <li>Cloud: AWS (EC2, S3, SQS, Lambda, ECS, EKS, Fargate, API Gateway, DocumentDB).</li>
+          <li>Data: Oracle, PostgreSQL, MongoDB, SQL Server, ArangoDB.</li>
+          <li>Messaging and Integration: ActiveMQ, RabbitMQ, SOA, BPEL, WebServices, EDI flows.</li>
+          <li>DevOps and Observability: Jenkins, Groovy, Git, SVN, CI/CD pipelines, monitoring and logging practices.</li>
+          <li>Additional Exposure: LLM ecosystem topics, prompt orchestration, agent frameworks, MCP concepts, and evaluation frameworks.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section class="columns" style="margin-top: -18px;">
+      <article class="card" style="grid-column: 1 / -1;">
+        <h3>Delivery and Leadership Strengths</h3>
+        <ul>
+          <li>Technical leadership for multidisciplinary teams across development, architecture, and infrastructure.</li>
+          <li>Architecture modeling for backend, frontend, integration, and data flows.</li>
+          <li>Production incident handling, root-cause analysis, and stabilization planning.</li>
+          <li>Security and reliability best-practice enablement for software squads.</li>
+          <li>Migration support for legacy platforms and modernization to cloud-first approaches.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="experience">
+      <h2 class="title">Professional Experience</h2>
+
+      <article class="experience-item">
+        <h3>Caixa Residencial</h3>
+        <div class="meta">Architecture Coordinator | Sep 2024 - Present</div>
+        <ul>
+          <li>Lead technical direction for architecture and software engineering teams, balancing operational needs with strategic goals.</li>
+          <li>Guide teams on implementation standards, reliability practices, and sustainable engineering decisions.</li>
+          <li>Coordinate initiatives across security, DevOps, monitoring, and platform evolution.</li>
+          <li>Support stakeholder alignment through clear communication, prioritization, and execution governance.</li>
+          <li>Define and improve engineering guardrails for architecture consistency, maintainability, and operational resilience.</li>
+          <li>Facilitate technical decision-making across teams by reviewing solution proposals and implementation trade-offs.</li>
+          <li>Support delivery governance for strategic initiatives, helping teams execute with predictable quality and lower risk.</li>
+        </ul>
+        <p class="stack"><strong>Stack:</strong> Spring Boot, Oracle, MongoDB, Git, EC2, Lambda, ECS, EKS, Fargate, DocumentDB, S3, API Gateway, Jenkins, Groovy, Docker.</p>
+      </article>
+
+      <article class="experience-item">
+        <h3>Caixa Residencial</h3>
+        <div class="meta">Systems Specialist | Sep 2022 - Sep 2024</div>
+        <ul>
+          <li>Provided technical leadership in architecture-driven projects involving development and infrastructure teams.</li>
+          <li>Supported strategic initiatives such as Open Insurance, digital signature capabilities, quoting engines, and internal platforms.</li>
+          <li>Modeled backend, frontend, database, and service architecture with focus on AWS microservices and security best practices.</li>
+          <li>Led architecture discussions with cross-functional teams to align business priorities, technical constraints, and delivery plans.</li>
+          <li>Supported cloud adoption and platform evolution efforts for new and existing applications.</li>
+          <li>Drove best practices in code quality, version control, application security, and deployment automation.</li>
+        </ul>
+        <p class="stack"><strong>Stack:</strong> Java, JSF, JSP, EJB, Spring Boot, Spring MVC, Spring Data, Spring Security, Lombok, Hibernate, PL/SQL, Node.js, TypeScript, Oracle, MongoDB, JBoss, WildFly, ActiveMQ, OAuth 2.0.</p>
+      </article>
+
+      <article class="experience-item">
+        <h3>Tokio Marine Seguradora</h3>
+        <div class="meta">Senior Systems Analyst | Nov 2020 - Sep 2022</div>
+        <ul>
+          <li>Worked on production support and evolution of residential insurance quotation, acceptance, inspection, and issuance systems.</li>
+          <li>Partnered with Product Owner and business teams in analysis, prioritization, and delivery of technical solutions.</li>
+          <li>Contributed to architecture design, feature implementation, and incident response.</li>
+          <li>Acted on high-priority production incidents, coordinating troubleshooting and restoration efforts with technical teams.</li>
+          <li>Contributed to continuous improvements in maintainability and reliability of core insurance workflows.</li>
+        </ul>
+      </article>
+
+      <article class="experience-item">
+        <h3>Qintess</h3>
+        <div class="meta">Systems Analyst | Sep 2020 - Nov 2020</div>
+        <ul>
+          <li>Worked on functional requirements for insurance analysis, approval, and issuance workflows.</li>
+          <li>Participated in rollout of XS3 issuance services in partnership with Tokio Marine and Caixa Economica Federal.</li>
+          <li>Supported implementation and go-live activities to ensure operational continuity during delivery.</li>
+        </ul>
+      </article>
+
+      <article class="experience-item">
+        <h3>TRMS</h3>
+        <div class="meta">Junior to Mid-Level Systems Analyst | Feb 2017 - Sep 2020</div>
+        <ul>
+          <li>Performed requirements analysis, use case definition, Java development, and production support.</li>
+          <li>Contributed to a cryptocurrency e-commerce platform using Spring architecture and PostgreSQL.</li>
+          <li>Supported insurance platform sustainment projects using Oracle, SOA/BPEL, and Java.</li>
+          <li>Acted as developer and technical lead in selected initiatives using Spring Boot, Spring MVC, Docker, Kubernetes, Jenkins, RabbitMQ, and Keycloak.</li>
+          <li>Worked across multiple project contexts, combining software delivery, support operations, and technical leadership responsibilities.</li>
+        </ul>
+      </article>
+
+      <article class="experience-item">
+        <h3>4Win Tecnologia da Informacao LTDA</h3>
+        <div class="meta">Intern to Junior Systems Analyst | Jan 2013 - Nov 2016</div>
+        <ul>
+          <li>Worked on requirements gathering, use case modeling, and software development with Java, .NET, Oracle, and SQL Server.</li>
+          <li>Participated in process quality initiatives, including MPS-BR implementation (levels F and E).</li>
+          <li>Contributed to enterprise migration and integration projects for financial services clients.</li>
+          <li>Supported project transitions from legacy platforms to newer application servers and architecture standards.</li>
+        </ul>
+      </article>
+    </section>
+
+    <section id="education" class="columns">
+      <article class="card">
+        <h3>Education</h3>
+        <ul>
+          <li>University of Sao Paulo (USP) - Sao Paulo, Brazil: Bachelor's Degree in Information Systems | Jan 2012 - Jul 2019.</li>
+          <li>Instituto Tecnico Brasilio Flores de Azevedo - Barueri, Brazil: Technical High School Program (Software Development Focus) | Jan 2009 - Dec 2012.</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h3>Courses and Languages</h3>
+        <ul>
+          <li>MongoDB University: MongoDB Basico, MongoDB for Java Developers.</li>
+          <li>Udemy: PL/SQL, Java, JSF, Oracle Database.</li>
+          <li>Caelum/Alura: C#, ASP.NET.</li>
+          <li>Languages: Portuguese (Native), English (Professional working fluency).</li>
+        </ul>
+      </article>
+    </section>
+
+    <footer class="footer">
+      Color system: #2C5273, #F29F05, #D93D04, #D9D9D9, #0D0D0D
+    </footer>
+  </main>
+</body>
+</html>

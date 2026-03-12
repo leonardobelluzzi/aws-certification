@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "b9c498cc9cdd992f",
+        "id": "f49cf536de2cfcdd",
         "type": "tabs",
         "children": [
           {
-            "id": "fccf90523611981d",
+            "id": "8207ee37e402e492",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -168,6 +168,15 @@
   },
   "active": "dd1d401fc37c406b",
   "lastOpenFiles": [
+    "McKinsey/cv-brutalist-v2.pdf",
+    "McKinsey/cv-brutalist.pdf",
+    "McKinsey/Copilot_20260312_092302.png",
+    "McKinsey/Copilot_20260312_092302.png.crdownload",
+    "McKinsey/cv-brutalist.html",
+    "McKinsey/Untitled copy.md",
+    "McKinsey/Untitled.md",
+    "Last attempts.md",
+    "McKinsey",
     "Services/Compute/Amazon EC2 Image Builder.md",
     "Concepts/AWS USE CASES - Consolidado.md",
     "Concepts/AWS Architecture Center.md",
@@ -194,10 +203,6 @@
     "Services/Management and Governance/AWS OpsHub.md",
     "Services/Management and Governance/AWS Organizations.md",
     "Services/Management and Governance/AWS Control Tower.md",
-    "Services/Developer Tools/AWS CodeCommit.md",
-    "Services/Developer Tools/AWS CodePipeline.md",
-    "Services/Developer Tools/CodeDeploy.md",
-    "Services/Developer Tools/AWS X-Ray.md",
     "Services/Developer Tools",
     "Services/Media",
     "Images/Pasted image 20260311093048.png",
@@ -209,11 +214,6 @@
     "Images/Pasted image 20260219101243.png",
     "Images/Pasted image 20260219095208.png",
     "Images/Pasted image 20260217125230.png",
-    "Images/Pasted image 20260217125214.png",
-    "Untitled 1.base",
-    "Untitled.base",
-    "Message",
-    "Untitled 3.base",
     "Untitled.canvas",
     "Concepts/Untitled.canvas",
     "Drafts/Untitled.canvas"

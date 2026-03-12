@@ -1,170 +1,190 @@
 
-## TEST 1
+# 📝 AWS Cloud Practitioner - Últimas Tentativas
 
-### Question 3
+## 🔵 TEST 1 - Questões com Erros
 
-A financial services company wants to ensure that its AWS account activity meets the governance, compliance and auditing norms. As a Cloud Practitioner, which AWS service would you recommend for this use-case?
+### **Q3** - Governance & Auditing
+**Questão:** A financial services company wants to ensure that its AWS account activity meets the governance, compliance and auditing norms. As a Cloud Practitioner, which AWS service would you recommend for this use-case?
 
-Correct answer: AWS CloudTrail
+**✅ Resposta Correta:** AWS CloudTrail
 
+**📌 Explicação:**
 You can use CloudTrail to log, monitor and retain account activity related to actions across your AWS infrastructure. CloudTrail provides an event history of your AWS account activity, including actions taken through the AWS Management Console, AWS SDKs, command-line tools, and other AWS services.
 
-Your answer is incorrect: AWS Config
+**❌ Resposta Incorreta:** AWS Config
+- AWS Config is a service that enables you to assess, audit, and evaluate the **configurations** of your AWS resources (not account activity).
 
-AWS Config is a service that enables you to assess, audit, and evaluate the configurations of your AWS resources.
+---
 
-### Question 7
+### **Q7** - AWS Support Plans (Select 2)
+**Questão:** Which of the following AWS Support plans provide access to guidance, configuration, and troubleshooting of AWS interoperability with third-party software?
 
-Which of the following AWS Support plans provide access to guidance, configuration, and troubleshooting of AWS interoperability with third-party software? (Select two)
+**✅ Respostas Corretas:**
+- AWS Enterprise Support
+- AWS Business Support
 
-Correct selection: AWS Enterprise Support, AWS Business Support
+**❌ Seleção Incorreta:**
+- AWS Corporate Support (não existe)
+- AWS Developer Support
+- AWS Basic Support
 
-Your selection is incorrect: AWS Corporate Support, AWS Developer Support, AWS Basic Support
+---
 
-### Question 8
+### **Q8** - VPC Gateway Endpoint (Select 2)
+**Questão:** Which of the following AWS services support VPC Gateway Endpoint for a private connection from a VPC?
 
-Which of the following AWS services support VPC Gateway Endpoint for a private connection from a VPC? (Select two)
+**✅ Respostas Corretas:**
+- Amazon S3
+- Amazon DynamoDB
 
-Correct selection: Amazon Simple Storage Service (Amazon S3), Amazon DynamoDB
+**❌ Seleção Incorreta:** Amazon EC2
 
-Your selection is incorrect: Amazon Elastic Compute Cloud (Amazon EC2)
+**📌 Explicação:**
+A VPC endpoint enables you to privately connect your VPC to supported AWS services and VPC endpoint services powered by AWS PrivateLink without requiring an internet gateway, NAT device, VPN connection, or AWS Direct Connect connection.
 
+**Gateway Endpoint** supports only:
+- Amazon S3
+- Amazon DynamoDB
 
-A VPC endpoint enables you to privately connect your VPC to supported AWS services and VPC endpoint services powered by AWS PrivateLink without requiring an internet gateway, NAT device, VPN connection, or AWS Direct Connect connection. Instances in your VPC do not require public IP addresses to communicate with resources in the service.
+---
 
-A gateway endpoint is a gateway that you specify as a target for a route in your route table for traffic destined to a supported AWS service. The following AWS services are supported:
+### **Q9** - Migration Strategy
+**Questão:** An organization is currently operating MySQL databases on its own on-premises servers. To reduce the operational burden of database maintenance and management, the organization wants to move to a fully managed AWS database offering. Which migration strategy best aligns with this goal?
 
-Amazon Simple Storage Service (Amazon S3) & Amazon DynamoDB
+**✅ Resposta Correta:** Replatform
 
-### Question 9
+**📌 Explicação:**
+**Replatforming** is the most suitable strategy here. It involves moving to a cloud environment with some optimizations, such as switching from a self-managed MySQL database to a managed service like Amazon RDS for MySQL, reducing operational overhead without major changes to the application.
 
-An organization is currently operating MySQL databases on its own on-premises servers. To reduce the operational burden of database maintenance and management, the organization wants to move to a fully managed AWS database offering.
+**❌ Resposta Incorreta:** Rehost
+- **Rehosting** involves moving applications to the cloud without making changes to the architecture. While it's fast, it typically means continuing to manage the database yourself on Amazon EC2 or similar services—not adopting a managed service.
 
-Which migration strategy best aligns with this goal?
+---
 
-Correct answer: Replatform
+### **Q13** - Encryption by Default
+**Questão:** Which of the following AWS services has encryption enabled by default?
 
-Your answer is incorrect: Rehost
+**✅ Resposta Correta:** AWS CloudTrail Logs
 
-Replatforming is the most suitable strategy here. It involves moving to a cloud environment with some optimizations, such as switching from a self-managed MySQL database to a managed service like Amazon RDS for MySQL, reducing operational overhead without major changes to the application.
+**📌 Explicação:**
+AWS CloudTrail is a service that enables governance, compliance, operational auditing, and risk auditing of your AWS account. AWS CloudTrail can be used to record AWS API calls and other activity for your AWS account and save the recorded information to log files in an Amazon S3 bucket that you choose. **Logs are encrypted by default.**
 
-Rehosting involves moving applications to the cloud without making changes to the architecture. While it’s fast, it typically means continuing to manage the database yourself on Amazon EC2 or similar services—not adopting a managed service.
+---
 
-### Question 13
+### **Q16** - Reserved Instance Cost Optimization
+**Questão:** Which of the following is the MOST cost-effective option to purchase an EC2 Reserved Instance (RI)?
 
-Which of the following AWS services has encryption enabled by default?
+**✅ Resposta Correta:** Partial upfront payment option with standard 3-years term
 
-Correct answer: AWS CloudTrail Logs
+**❌ Resposta Incorreta:** No upfront payment option with standard 3-years term
 
-AWS CloudTrail is a service that enables governance, compliance, operational auditing, and risk auditing of your AWS account. AWS CloudTrail can be used to record AWS API calls and other activity for your AWS account and save the recorded information to log files in an Amazon Simple Storage Service (Amazon S3) bucket that you choose.
+**💡 Importante:**
+- **Partial upfront** = Pagamento ANTECIPADO (mais desconto)
+- **No upfront** = Pagamento PARCELADO (menos desconto)
 
-### Question 16
+---
 
-Which of the following is the MOST cost-effective option to purchase an EC2 Reserved Instance (RI)?
+### **Q21** - S3 Client-Side Encryption
+**Questão:** A web application stores all of its data on Amazon S3 buckets. A client has mandated that data be encrypted before sending it to Amazon S3. Which of the following is the right technique for encrypting data as needed by the customer?
 
-Correct answer: Partial upfront payment option with standard 3-years term
+**✅ Resposta Correta:** Enable client-side encryption using AWS encryption SDK
 
-Your answer is incorrect: No upfront payment option with standard 3-years term
+**📌 Explicação:**
+The act of encrypting data **before sending it to Amazon S3** is termed as **client-side encryption**. The AWS encryption SDK is a client-side encryption library that is separate from the language–specific SDKs.
 
-Partial -> ANTECIPADO
-No upfront -> PARCELADO
+---
 
-### Question 21
+### **Q22** - AWS Global Infrastructure (Select 2)
+**Questão:** Which of the following are correct statements regarding the AWS Global Infrastructure?
 
-A web application stores all of its data on Amazon S3 buckets. A client has mandated that data be encrypted before sending it to Amazon S3.
+**✅ Respostas Corretas:**
+- Each Availability Zone (AZ) consists of one or more discrete data centers
+- Each AWS Region consists of a minimum of three Availability Zones (AZ)
 
-Which of the following is the right technique for encrypting data as needed by the customer?
+---
 
-Correct answer: Enable client-side encryption using AWS encryption SDK
+### **Q24** - DynamoDB Active-Active
+**Questão:** A company wants to improve the resiliency of its flagship application so it wants to move from its traditional database system to a managed AWS NoSQL database service to support active-active configuration in both the East and West US AWS regions. The active-active configuration with cross-region support is the prime criteria for any database solution that the company considers. Which AWS database service is the right fit for this requirement?
 
-The act of encrypting data before sending it to Amazon S3 is termed as client-side encryption. The AWS encryption SDK is a client-side encryption library that is separate from the language–specific SDKs.
+**✅ Resposta Correta:** Amazon DynamoDB with global tables
 
-### Question 22
+**📌 Explicação:**
+Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database designed to run high-performance applications at any scale. DynamoDB offers built-in security, continuous backups, **automated multi-region replication** (global tables), in-memory caching, and data export tools.
 
-Which of the following are correct statements regarding the AWS Global Infrastructure? (Select two)
+---
 
-Your selection is correct: Each Availability Zone (AZ) consists of one or more discrete data centers
+### **Q26** - Trusted Advisor Core Checks (Select 2)
+**Questão:** Which of the following AWS Support plans provide access to only core checks from the AWS Trusted Advisor Best Practice Checks?
 
-Correct selection: Each AWS Region consists of a minimum of three Availability Zones (AZ)
+**✅ Respostas Corretas:**
+- AWS Developer Support
+- AWS Basic Support
 
-### Question 24
+**📌 Explicação:**
 
-A company wants to improve the resiliency of its flagship application so it wants to move from its traditional database system to a managed AWS NoSQL database service to support active-active configuration in both the East and West US AWS regions. The active-active configuration with cross-region support is the prime criteria for any database solution that the company considers.
+**AWS Basic Support:**
+- Customer Service & Communities - 24x7 access
+- AWS Trusted Advisor - Access to **core Trusted Advisor checks** only
+- AWS Health Dashboard
 
-Which AWS database service is the right fit for this requirement?
+**AWS Developer Support:**
+- Email-based technical support during business hours
+- Access to just the **core Trusted Advisor checks** (Service Quota and basic Security checks)
 
-Correct answer: Amazon DynamoDB with global tables
+---
 
-Amazon DynamoDB is a fully managed, serverless, key-value NoSQL database designed to run high-performance applications at any scale. DynamoDB offers built-in security, continuous backups, automated multi-region replication, in-memory caching, and data export tools.
+### **Q27** - S3 Storage Class for Infrequent Access
+**Questão:** A company needs a storage solution for a project wherein the data is accessed less frequently but needs rapid access when required. Which S3 storage class is the MOST cost-effective for the given use-case?
 
-### Question 26
+**✅ Resposta Correta:** Amazon S3 Standard-Infrequent Access (S3 Standard-IA)
 
-Which of the following AWS Support plans provide access to only core checks from the AWS Trusted Advisor Best Practice Checks? (Select two)
+**📌 Explicação:**
+Amazon S3 Standard-IA is for data that is **accessed less frequently, but requires rapid access when needed**. S3 Standard-IA offers the high durability, high throughput, and low latency of S3 Standard, with a low per GB storage price and per GB retrieval fee. This combination of low cost and high performance make S3 Standard-IA ideal for long-term storage, backups, and as a data store for disaster recovery files.
 
-Correct selection: AWS Developer Support, AWS Basic Support
+**❌ Resposta Incorreta:** Amazon S3 Intelligent-Tiering
+- S3 Intelligent-Tiering automatically moves data between access tiers but would turn out to be **costlier than S3 Standard-IA** for the given use-case.
 
-**AWS Basic Support**
+---
 
-The AWS Basic Support plan only provides access to the following:
+### **Q28** - Reserved Instances Sharing
+**Questão:** A company uses reserved EC2 instances across multiple units with each unit having its own AWS account. However, some of the units under-utilize their reserved instances while other units need more reserved instances. As a Cloud Practitioner, which of the following would you recommend as the most cost-optimal solution?
 
-Customer Service & Communities - 24x7 access to customer service, documentation, whitepapers, and support forums. AWS Trusted Advisor - Access to the core Trusted Advisor checks and guidance to provision your resources following best practices to increase performance and improve security. AWS Health - Your Account Health Dashboard : A personalized view of the health of your AWS services, and alerts when your resources are impacted.
+**✅ Resposta Correta:** Use AWS Organizations to manage AWS accounts of all units and then share the reserved EC2 instances amongst all units
 
-**AWS Developer Support**
+**📌 Referência Visual:**
+![Reserved Instances Sharing](Pasted%20image%2020260311085846.png)
 
-You should use the AWS Developer Support plan if you are testing or doing early development on AWS and want the ability to get email-based technical support during business hours as well as general architectural guidance as you build and test. This plan provides access to just the core Trusted Advisor checks from the Service Quota and basic Security checks.
 
-### Question 27Incorrect
+---
 
-A company needs a storage solution for a project wherein the data is accessed less frequently but needs rapid access when required. Which S3 storage class is the MOST cost-effective for the given use-case?
+### **Q29** - Speech Interface Application
+**Questão:** A unicorn startup is building an analytics application with support for a speech-based interface. The application will accept speech-based input from users and then convey results via speech. As a Cloud Practitioner, which solution would you recommend for the given use-case?
 
-Correct answer: Amazon S3 Standard-Infrequent Access (S3 Standard-IA)
+**✅ Resposta Correta:** Use Amazon Transcribe to convert speech to text for downstream analysis. Then use Amazon Polly to convey the text results via speech
 
-Amazon S3 Standard-Infrequent Access (S3 Standard-IA) is for data that is accessed less frequently, but requires rapid access when needed. S3 Standard-IA offers the high durability, high throughput, and low latency of S3 Standard, with a low per GB storage price and per GB retrieval fee. This combination of low cost and high performance make S3 Standard-IA ideal for long-term storage, backups, and as a data store for disaster recovery files.
+**💡 Ferramentas AWS:**
+- **Amazon Polly** - Turn text into lifelike speech (text-to-speech)
+- **Amazon Transcribe** - Add speech-to-text capability to applications
+- **Amazon Translate** - Language translation (not for speech)
 
-Correct option: **Amazon S3 Standard-Infrequent Access (S3 Standard-IA)**
 
-Amazon S3 Standard-Infrequent Access (S3 Standard-IA) is for data that is accessed less frequently, but requires rapid access when needed. S3 Standard-IA offers the high durability, high throughput, and low latency of S3 Standard, with a low per GB storage price and per GB retrieval fee.
+---
 
-Your answer is incorrect: Amazon S3 Intelligent-Tiering (S3 Intelligent-Tiering)
+### **Q46** - Data Discovery on S3
+**Questão:** A silicon valley based healthcare startup stores anonymized patient health data on Amazon S3. The CTO further wants to ensure that any sensitive data on S3 is discovered and identified to prevent any sensitive data leaks. As a Cloud Practitioner, which AWS service would you recommend addressing this use-case?
 
-The Amazon S3 Intelligent-Tiering storage class is designed to optimize costs by automatically moving data to the most cost-effective access tier, without performance impact or operational overhead. It works by storing objects in two access tiers: one tier that is optimized for frequent access and another lower-cost tier that is optimized for infrequent access. S3 Intelligent-Tiering would turn out to be costlier than S3 Standard-IA for the given use-case, so this option is not correct.
+**✅ Resposta Correta:** Amazon Macie
 
-### Question 28
+**📌 Referência Visual:**
+![Amazon Macie](Pasted%20image%2020260311090819.png)
 
-A company uses reserved EC2 instances across multiple units with each unit having its own AWS account. However, some of the units under-utilize their reserved instances while other units need more reserved instances. As a Cloud Practitioner, which of the following would you recommend as the most cost-optimal solution?
 
-Correct answer: Use AWS Organizations to manage AWS accounts of all units and then share the reserved EC2 instances amongst all units
+---
 
-![[Pasted image 20260311085846.png]]
+### **Q48** - Cloud Computing Advantages (Select 3)
+**Questão:** Which of the following are the advantages of cloud computing?
 
-
-### Question 29
-
-A unicorn startup is building an analytics application with support for a speech-based interface. The application will accept speech-based input from users and then convey results via speech. As a Cloud Practitioner, which solution would you recommend for the given use-case?
-
-Correct answer: Use Amazon Transcribe to convert speech to text for downstream analysis. Then use Amazon Polly to convey the text results via speech
-
-Tools:
-- You can use Amazon Polly to turn text into lifelike speech thereby allowing you to create applications that talk.
-- Amazon Translate is used for language translation.
-- You can use Amazon Transcribe to add speech-to-text capability to your applications.
-
-
-### Question 46
-
-A silicon valley based healthcare startup stores anonymized patient health data on Amazon S3. The CTO further wants to ensure that any sensitive data on S3 is discovered and identified to prevent any sensitive data leaks. As a Cloud Practitioner, which AWS service would you recommend addressing this use-case?
-
-Correct answer: Amazon Macie
-
-![[Pasted image 20260311090819.png]]
-
-
-### Question 48
-
-Which of the following are the advantages of cloud computing? (Select three)
-
-Your selection is correct
-
+**✅ Respostas Corretas:**
 - Go global in minutes and deploy applications in multiple regions around the world with just a few clicks
 - Benefit from massive economies of scale
 - Trade capital expense for variable expense
@@ -184,69 +204,92 @@ An EC2 Reserved Instance (RI) provides you with significant savings (up to 75%) 
 
 **EC2 Dedicated Host** - An Amazon EC2 Dedicated Host allows you to use your eligible software licenses from vendors such as Microsoft and Oracle on Amazon EC2 so that you get the flexibility and cost-effectiveness of using your licenses, but with the resiliency, simplicity, and elasticity of AWS. An Amazon EC2 Dedicated Host is a physical server fully dedicated for your use, so you can help address corporate compliance requirement. It is not cost-efficient compared to an On-Demand instance. So this option is not correct.
 
-### Question 56
+---
 
-Which of the following AWS services support reservations to optimize costs? (Select three)
+### **Q56** - Services with Reservations (Select 3)
+**Questão:** Which of the following AWS services support reservations to optimize costs?
 
-Amazon Elastic Compute Cloud (Amazon EC2)
-Amazon Relational Database Service (Amazon RDS)
-Amazon DynamoDB
+**✅ Respostas Corretas:**
+- Amazon EC2
+- Amazon RDS
+- Amazon DynamoDB
 
-## TEST 2
+---
 
-### Question 2
+## 🔵 TEST 2 - Questões com Erros
 
-Which of the following statement is correct for a Security Group and a Network Access Control List (Network ACL)?
+### **Q2** - Security Group vs Network ACL
+**Questão:** Which of the following statement is correct for a Security Group and a Network Access Control List (Network ACL)?
 
-Correct answer: Security Group acts as a firewall at the instance level whereas Network Access Control List (Network ACL) acts as a firewall at the subnet level
+**✅ Resposta Correta:** Security Group acts as a firewall at the instance level whereas Network Access Control List (Network ACL) acts as a firewall at the subnet level
 
-![[Pasted image 20260311091908.png]]
-
-![[Pasted image 20260311091924.png]]
-
-
-### Question 7
-
-Which of the following AWS services is essential for implementing security of resources in AWS Cloud?
-
-Correct answer: AWS Identity and Access Management (IAM)
-
-### Question 8
-
-A gaming company is looking at a technology/service that can deliver a consistent low-latency gameplay to ensure a great user experience for end-users in various locations.
-
-Which AWS technology/service will provide the necessary low-latency access to the end-users?
-
-Correct answer: AWS Local Zones 
-
-AWS Local Zones allow you to use select AWS services, like compute and storage services, closer to more end-users, providing them very low latency access to the applications running locally.
-
-**AWS Edge Locations** - An AWS Edge location is a site that CloudFront uses to cache copies of the content for faster delivery to users at any location.
-
-### Question 11
-
-Which of the following is the correct statement regarding the AWS Storage services?
-
-Correct answer: Amazon Simple Storage Service (Amazon S3) is object based storage, Amazon Elastic Block Store (Amazon EBS) is block based storage and Amazon Elastic File System (Amazon EFS) is file based storage
+**📌 Referência Visual:**
+![Security Group vs Network ACL - Diagram 1](Pasted%20image%2020260311091908.png)
+![Security Group vs Network ACL - Diagram 2](Pasted%20image%2020260311091924.png)
 
 
-### Question 12
+---
 
-Which Amazon Elastic Compute Cloud (Amazon EC2) pricing model is the most cost-effective and flexible with no requirement for a long term resource commitment or upfront payment but still guarantees that instance would not be interrupted?
+### **Q7** - AWS Security Service
+**Questão:** Which of the following AWS services is essential for implementing security of resources in AWS Cloud?
 
-Correct answer: On-demand Instance
+**✅ Resposta Correta:** AWS Identity and Access Management (IAM)
 
-### Question 20
+---
 
-A data analytics company stores its data on Amazon Simple Storage Service (Amazon S3) and wants to do SQL based analysis on this data with minimum effort. As a Cloud Practitioner, which of the following AWS services will you suggest for this use case?
+### **Q8** - Low-Latency Access
+**Questão:** A gaming company is looking at a technology/service that can deliver a consistent low-latency gameplay to ensure a great user experience for end-users in various locations. Which AWS technology/service will provide the necessary low-latency access to the end-users?
 
-Correct answer: Amazon Athena
+**✅ Resposta Correta:** AWS Local Zones
 
-### Question 26
+**📌 Explicação:**
+AWS Local Zones allow you to use select AWS services, like compute and storage services, **closer to more end-users**, providing them **very low latency access** to the applications running locally.
 
-Which of the following options can be used to access and manage all AWS services (Select three)?
+**💡 Diferença:**
+- **AWS Edge Locations** - CloudFront uses edge locations to cache copies of content for faster delivery (CDN)
 
-Correct selection:
+---
+
+### **Q11** - AWS Storage Types
+**Questão:** Which of the following is the correct statement regarding the AWS Storage services?
+
+**✅ Resposta Correta:** Amazon S3 is object based storage, Amazon EBS is block based storage and Amazon EFS is file based storage
+
+**💡 Resumo:**
+- **Amazon S3** - Object storage
+- **Amazon EBS** - Block storage
+- **Amazon EFS** - File storage
+
+
+---
+
+### **Q12** - EC2 Pricing Model
+**Questão:** Which Amazon EC2 pricing model is the most cost-effective and flexible with no requirement for a long term resource commitment or upfront payment but still guarantees that instance would not be interrupted?
+
+**✅ Resposta Correta:** On-demand Instance
+
+**📌 Características:**
+- No long-term commitment
+- No upfront payment
+- Flexible
+- **Cannot be interrupted** (unlike Spot Instances)
+
+---
+
+### **Q20** - SQL Analysis on S3
+**Questão:** A data analytics company stores its data on Amazon S3 and wants to do SQL based analysis on this data with minimum effort. As a Cloud Practitioner, which of the following AWS services will you suggest for this use case?
+
+**✅ Resposta Correta:** Amazon Athena
+
+**📌 Explicação:**
+Amazon Athena is an interactive query service that makes it easy to analyze data directly in Amazon S3 using standard SQL. No need to load data or set up infrastructure.
+
+---
+
+### **Q26** - Access and Manage AWS Services (Select 3)
+**Questão:** Which of the following options can be used to access and manage all AWS services?
+
+**✅ Respostas Corretas:**
 - AWS Software Development Kit (SDK)
 - AWS Management Console
 - AWS Command Line Interface (AWS CLI)
@@ -266,71 +309,129 @@ The Envision phase of the AWS Cloud Adoption Framework (AWS CAF) focuses on demo
 **Scale** - The Scale phase of the AWS Cloud Adoption Framework (AWS CAF) focuses on expanding production pilots and business value to desired scale and ensuring that the business benefits associated with your cloud investments are realized and sustained.
 
 
-### Question 29
+---
 
-What are the different gateway types supported by AWS Storage Gateway service?
+### **Q29** - Storage Gateway Types
+**Questão:** What are the different gateway types supported by AWS Storage Gateway service?
 
-Correct answer: Tape Gateway, File Gateway and Volume Gateway
+**✅ Resposta Correta:** Tape Gateway, File Gateway and Volume Gateway
 
-### Question 35
+**💡 Resumo:**
+- **Tape Gateway** - Virtual tape library
+- **File Gateway** - File-based storage
+- **Volume Gateway** - Block-based storage
 
-A company's flagship application runs on a fleet of Amazon Elastic Compute Cloud (Amazon EC2) instances. As per the new policies, the system administrators are looking for the best way to provide secure shell access to Amazon Elastic Compute Cloud (Amazon EC2) instances without opening new ports or using public IP addresses.
+---
 
-Which tool/service will help you achieve this requirement?
+### **Q35** - Secure Shell Access to EC2
+**Questão:** A company's flagship application runs on a fleet of Amazon EC2 instances. As per the new policies, the system administrators are looking for the best way to provide secure shell access to Amazon EC2 instances without opening new ports or using public IP addresses. Which tool/service will help you achieve this requirement?
 
-Correct answer: AWS Systems Manager Session Manager
+**✅ Resposta Correta:** AWS Systems Manager Session Manager
 
-### Question 36
+**💡 Benefícios:**
+- No need to open ports (like SSH port 22)
+- No need for public IP addresses
+- Secure access via AWS console
 
-An e-commerce company wants to assess its applications deployed on Amazon Elastic Compute Cloud (Amazon EC2) instances for vulnerabilities and deviations from AWS best practices. Which AWS service can be used to facilitate this?
+---
 
-Correct answer: Amazon Inspector
+### **Q36** - Security Assessment
+**Questão:** An e-commerce company wants to assess its applications deployed on Amazon EC2 instances for vulnerabilities and deviations from AWS best practices. Which AWS service can be used to facilitate this?
 
-### Question 55Incorrect
+**✅ Resposta Correta:** Amazon Inspector
 
-Which of the following solutions can you use to connect your on-premises network with AWS Cloud (Select two)?
+**📌 Explicação:**
+Amazon Inspector is an automated security assessment service that helps improve the security and compliance of applications deployed on AWS. It automatically assesses applications for vulnerabilities and deviations from best practices.
 
-Correct selection:
+---
 
+### **Q55** - On-Premises to AWS Connectivity (Select 2)
+**Questão:** Which of the following solutions can you use to connect your on-premises network with AWS Cloud?
+
+**✅ Respostas Corretas:**
 - AWS Virtual Private Network (VPN)
 - AWS Direct Connect
 
-![[Pasted image 20260311093048.png]]
+**📌 Referência Visual:**
+![On-Premises Connectivity](Pasted%20image%2020260311093048.png)
 
 
-### Question 56
+---
 
-According to the AWS Shared Responsibility Model, which of the following are responsibilities of the customer for Amazon RDS?
+### **Q56** - RDS Customer Responsibility
+**Questão:** According to the AWS Shared Responsibility Model, which of the following are responsibilities of the customer for Amazon RDS?
 
-Correct answer: Database encryption
+**✅ Resposta Correta:** Database encryption
 
-### Question 58
+**📌 Explicação:**
+For managed services like RDS, AWS manages the infrastructure and OS, but the customer is responsible for:
+- Database encryption (at rest and in transit)
+- Access control and IAM policies
+- Database backup configuration
+- Network access control
 
-A retail company has multiple AWS accounts for each of its departments. Which of the following AWS services can be used to set up consolidated billing and a single payment method for these AWS accounts?
+---
 
-Correct answer: AWS Organizations
+### **Q58** - Consolidated Billing
+**Questão:** A retail company has multiple AWS accounts for each of its departments. Which of the following AWS services can be used to set up consolidated billing and a single payment method for these AWS accounts?
 
-### Question 59
+**✅ Resposta Correta:** AWS Organizations
 
-AWS Compute Optimizer delivers recommendations for which of the following AWS resources? (Select two)
+**💡 Benefícios:**
+- Consolidated billing across multiple accounts
+- Single payment method
+- Volume discounts
+- Cost allocation and tracking
 
-Your selection is correct
+---
 
-- Amazon Elastic Compute Cloud (Amazon EC2) instances, Amazon EC2 Auto Scaling groups
-- Amazon Elastic Block Store (Amazon EBS), AWS Lambda functions
+### **Q59** - Compute Optimizer Resources (Select 2)
+**Questão:** AWS Compute Optimizer delivers recommendations for which of the following AWS resources?
 
-### Question 64
+**✅ Respostas Corretas:**
+- Amazon EC2 instances, Amazon EC2 Auto Scaling groups
+- Amazon EBS, AWS Lambda functions
 
-Which policy describes prohibited uses of the web services offered by Amazon Web Services?
+---
 
-Correct answer
+### **Q64** - AWS Policies
+**Questão:** Which policy describes prohibited uses of the web services offered by Amazon Web Services?
 
-**AWS Acceptable Use Policy**
+**✅ Resposta Correta:** AWS Acceptable Use Policy
 
-The Acceptable Use Policy describes prohibited uses of the web services offered by Amazon Web Services, Inc. and its affiliates (the “Services”) and the website located at http://aws.amazon.com (the “AWS Site”). This policy is present at https://aws.amazon.com/aup/ and is updated on a need basis by AWS.
+**📌 Explicação:**
+The **Acceptable Use Policy** describes prohibited uses of the web services offered by Amazon Web Services, Inc. and its affiliates. This policy is present at https://aws.amazon.com/aup/ and is updated on a need basis by AWS.
 
-**AWS Trusted Advisor** - AWS Trusted Advisor is an online tool that provides you real-time guidance to help you provision your resources following AWS best practices on cost optimization, security, fault tolerance, service limits, and performance improvement. 
+**❌ Opções Incorretas:**
+- **AWS Trusted Advisor** - Online tool that provides real-time guidance for provisioning resources following AWS best practices (not a policy)
+- **AWS Fair Use Policy** - Made-up option (distractor)
+- **AWS Applicable Use Policy** - Made-up option (distractor)
 
-**AWS Fair Use Policy** - This is a made-up option and has been added as a distractor.
+---
 
-**AWS Applicable Use Policy** - This is a made-up option and has been added as a distractor.
+## 📊 Resumo Geral
+
+**Total de Questões Revisadas:** 31 questões
+
+### TEST 1: 16 questões
+- Governance & Security (CloudTrail, IAM, Macie)
+- Storage & Databases (S3, DynamoDB, RDS)
+- Cost Optimization (Reserved Instances, Organizations)
+- AI/ML Services (Transcribe, Polly, Translate)
+- Support Plans & Trusted Advisor
+
+### TEST 2: 15 questões
+- Security & Networking (Security Groups, VPN, Direct Connect)
+- Storage Services (S3, EBS, EFS)
+- Database Services (RDS responsibilities)
+- Management Tools (Systems Manager, Inspector)
+- AWS CAF & Best Practices
+- Cost Management (Organizations, Compute Optimizer)
+
+**🎯 Tópicos Principais:**
+- AWS Security & Compliance
+- Storage Solutions (S3, EBS, EFS)
+- Cost Optimization Strategies
+- Networking & Connectivity
+- Managed Services & Shared Responsibility
+- AWS Support & Governance
