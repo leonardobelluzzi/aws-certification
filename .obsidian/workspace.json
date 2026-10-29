@@ -4,17 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "f49cf536de2cfcdd",
+        "id": "c60a41c02e9a4b1f",
         "type": "tabs",
         "children": [
           {
-            "id": "8207ee37e402e492",
+            "id": "9a5388da8eefe874",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "AWS - Associate/Design High-Performing Architectures/Amazon API Gateway.md",
+                "mode": "source",
+                "source": false
+              },
               "icon": "lucide-file",
-              "title": "New tab"
+              "title": "Amazon API Gateway"
             }
           }
         ]
@@ -37,10 +41,12 @@
               "type": "file-explorer",
               "state": {
                 "sortOrder": "alphabetical",
-                "autoReveal": false
+                "autoReveal": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-folder-closed",
-              "title": "Files"
+              "title": "Explorador de arquivos"
             }
           },
           {
@@ -157,17 +163,38 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "bases:Create new base": false,
-      "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "switcher:Abrir a troca rápida": false,
+      "graph:Abrir visualização em gráfico": false,
+      "canvas:Criar novo canvas": false,
+      "daily-notes:Abrir a nota de hoje": false,
+      "templates:Inserir modelo": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Criar nova base": false
     }
   },
-  "active": "dd1d401fc37c406b",
+  "active": "9a5388da8eefe874",
   "lastOpenFiles": [
+    "Pasted image 20261029083532.png",
+    "AWS - Associate/Concepts/Stateless vs. Stateful.md",
+    "AWS - Associate/Design High-Performing Architectures/Amazon API Gateway.md",
+    "AWS - Associate/Design High-Performing Architectures",
+    "Pasted image 20261029082248.png",
+    "AWS - Associate/Design Cost-Optimized Architectures/Amazon S3.md",
+    "AWS - Associate/Concepts",
+    "AWS - Associate/Design Resilient Architectures/SQS.md",
+    "AWS - Associate/Design Cost-Optimized Architectures",
+    "AWS - Associate/Design Resilient Architectures/API Gateway.md",
+    "AWS - Associate/Design Resilient Architectures/Amazon EventBridge.md",
+    "AWS - Associate/Design Resilient Architectures",
+    "english/can-permission.md",
+    "english/quadro-resumo.md",
+    "english/present-perfect.md",
+    "english/present-continuous.md",
+    "english/firstclass.md",
+    "english/going-to.md",
+    "AWS - Pratociner/Concepts/Costs.md",
+    "english/lets-suggestions.md",
+    "AWS - Associate",
     "McKinsey/cv-brutalist-v2.pdf",
     "McKinsey/cv-brutalist.pdf",
     "McKinsey/Copilot_20260312_092302.png",
@@ -181,30 +208,10 @@
     "Concepts/AWS USE CASES - Consolidado.md",
     "Concepts/AWS Architecture Center.md",
     "Services/Management and Governance/AWS Fault Injection Simulator (AWS FIS).md",
-    "Drafts/Untitled.base",
-    "Drafts/Untitled 1.base",
     "Drafts/Last attempts.md",
     "Drafts/Errors TEMP 2.md",
     "Services/Billing and Pricing/AWS Billing.md",
     "Services/Marketplace/AWS Marketplace.md",
-    "Services/Marketplace",
-    "Services/Messaging/SQS - Amazon Simple Queue Service.md",
-    "Services/Serverless/API Gateway.md",
-    "Services/IoT/AWS IoT Core.md",
-    "Services/IoT",
-    "Services/Migration/AWS Outposts.md",
-    "Services/Migration/CloudEndure Disaster Recovery.md",
-    "Services/Migration/AWS DataSync.md",
-    "Services/Management and Governance/AWS Support.md",
-    "Services/Management and Governance/AWS Health Dashboard.md",
-    "Services/Management and Governance/AWS Config.md",
-    "Services/Management and Governance/AWS Compute Optimizer.md",
-    "Services/Management and Governance/AWS CloudFormation.md",
-    "Services/Management and Governance/AWS OpsHub.md",
-    "Services/Management and Governance/AWS Organizations.md",
-    "Services/Management and Governance/AWS Control Tower.md",
-    "Services/Developer Tools",
-    "Services/Media",
     "Images/Pasted image 20260311093048.png",
     "Images/Pasted image 20260311091924.png",
     "Images/Pasted image 20260311091908.png",
@@ -213,7 +220,6 @@
     "Images/Pasted image 20260219152028.png",
     "Images/Pasted image 20260219101243.png",
     "Images/Pasted image 20260219095208.png",
-    "Images/Pasted image 20260217125230.png",
     "Untitled.canvas",
     "Concepts/Untitled.canvas",
     "Drafts/Untitled.canvas"

@@ -1,0 +1,1 @@
+**Leverage Amazon API Gateway to pass the form submissions to AWS Lambda for processing in real time** - While API Gateway with Lambda is effective for real-time synchronous processing, it does not inherently offer decoupling between tiers or a durable queue. It also lacks native support for guaranteed exactly-once processing across asynchronous workloads.

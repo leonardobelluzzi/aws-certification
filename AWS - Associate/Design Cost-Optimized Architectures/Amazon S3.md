@@ -1,0 +1,8 @@
+**Amazon S3 Standard-Infrequent Access (S3 Standard-IA)** - Since the data is accessed only twice in a financial year but needs rapid access when required, the most cost-effective storage class for this use-case is Amazon S3 Standard-IA.
+
+
+**Amazon S3 Standard** - Amazon S3 Standard offers high durability, availability, and performance object storage for frequently accessed data. As described above, Amazon S3 Standard-IA storage is a better fit than Amazon S3 Standard, hence using S3 standard is ruled out for the given use-case.
+
+**Amazon S3 Intelligent-Tiering (S3 Intelligent-Tiering)** - For a small monthly object monitoring and automation charge, Amazon S3 Intelligent-Tiering monitors access patterns and automatically moves objects that have not been accessed to lower-cost access tiers. The Amazon S3 Intelligent-Tiering storage class is designed to optimize costs by automatically moving data to the most cost-effective access tier, without performance impact or operational overhead. S3 Standard-IA matches the high durability, high throughput, and low latency of S3 Intelligent-Tiering, with a low per GB storage price and per GB retrieval fee. Moreover, Standard-IA has the same availability as that of Amazon S3 Intelligent-Tiering. So, it's cost-efficient to use S3 Standard-IA instead of S3 Intelligent-Tiering.
+
+**Amazon S3 Glacier Deep Archive** - Amazon S3 Glacier Deep Archive is a secure, durable, and low-cost storage class for data archiving. Amazon S3 Glacier Deep Archive does not support millisecond latency, so this option is ruled out.

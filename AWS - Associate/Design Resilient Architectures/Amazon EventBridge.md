@@ -1,0 +1,2 @@
+
+**Leverage Amazon EventBridge to send events from the web application to the processing tier for asynchronous form handling** - Amazon EventBridge is a powerful event bus that enables loosely coupled architectures and event-driven applications. However, it does not guarantee exactly-once delivery. Instead, EventBridge provides at-least-once delivery semantics, which means events can be delivered more than once in certain failure scenarios. So, the key shortcomings for this use case are - no built-in ordering of events and possible duplicate event delivery.
